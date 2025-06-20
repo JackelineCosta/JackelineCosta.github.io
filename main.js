@@ -416,7 +416,7 @@ var At = {
                                                 openInNewTab: !1,
                                                 relValues: [],
                                                 scopeId: "vjF7Ur2KS",
-                                                smoothScroll: !1,
+                                                smoothScroll: !0,
                                                 children: e(i.a, {
                                                     className: "framer-styles-preset-1ysybhb",
                                                     "data-styles-preset": "FoAA9VRJg",
@@ -460,7 +460,7 @@ var At = {
                                                 openInNewTab: !1,
                                                 relValues: [],
                                                 scopeId: "vjF7Ur2KS",
-                                                smoothScroll: !1,
+                                                smoothScroll: !0,
                                                 children: e(i.a, {
                                                     className: "framer-styles-preset-1ysybhb",
                                                     "data-styles-preset": "FoAA9VRJg",
@@ -504,7 +504,7 @@ var At = {
                                                 openInNewTab: !1,
                                                 relValues: [],
                                                 scopeId: "vjF7Ur2KS",
-                                                smoothScroll: !1,
+                                                smoothScroll: !0,
                                                 children: e(i.a, {
                                                     className: "framer-styles-preset-1ysybhb",
                                                     "data-styles-preset": "FoAA9VRJg",
@@ -592,7 +592,7 @@ var At = {
                                                 openInNewTab: !1,
                                                 relValues: [],
                                                 scopeId: "vjF7Ur2KS",
-                                                smoothScroll: !1,
+                                                smoothScroll: !0,
                                                 children: e(i.a, {
                                                     className: "framer-styles-preset-1ysybhb",
                                                     "data-styles-preset": "FoAA9VRJg",
