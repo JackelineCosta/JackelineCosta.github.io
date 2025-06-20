@@ -1637,11 +1637,6 @@ if (Ve) {
         error: 'Package component not supported: "' + n + '" in "' + o + '"'
     }),
     m.process = {
-        ...m.process,
-        env: {
-            ...m.process ? m.process.env : void 0,
-            NODE_ENV: "production"
-        }
     },
     m.__framer_events = m.__framer_events || [],
 m.__framer_events.push = () => {};
@@ -1657,13 +1652,11 @@ async function vt(r, o) {
             return;
         let h = s?.componentStack;
         if (p) {
-            if (console.warn(`Recoverable error has happened. Please check any custom code or code overrides to fix server/client mismatches:
-`, t, h),
+            if (console.warn(),
             Math.random() > .01)
                 return
         } else
-            console.error(`Fatal crash has happened. If you are the author of this website, please report this issue to the Framer team via https://www.framer.community/:
-`, t, h);
+            console.error();
         Vr(p ? "published_site_load_recoverable_error" : "published_site_load_error", {
             message: String(t),
             componentStack: h,
@@ -1715,12 +1708,6 @@ async function vt(r, o) {
                 ensureContinueBeforeUnload: !0,
                 continueAfter: "paint"
             })}
-//             document.dispatchEvent(new CustomEvent("framer:pageview",{
-//                 detail: {
-//                     framerLocale: v || null
-//                 }
-//             }))
-        
         )();
         let x = await a;
         r ? (ft("framer-rewrite-breakpoints", () => {
