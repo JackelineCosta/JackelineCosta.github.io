@@ -1,35 +1,36 @@
-import {a as pe, b as ue, c as he} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-5GIJA7RB.mjs";
-import {a as ye} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-HW5V2T27.mjs";
-import {a as ge} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-BAR4VTW2.mjs";
+import {a as fe, b as pe, c as he} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-U654ZQRN.mjs";
+import {a as ye} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-4PLI5XDM.mjs";
+import {a as ue} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-Y4RV7FRP.mjs";
+import {a as mt, b as ft, c as pt} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-KAWT63UV.mjs";
 import "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-42U43NKG.mjs";
-import {A as Ne, B as Qe, C as J, D as $e, F as Y, G as et, H as tt, I as w, J as rt, L as S, M as Te, O as at, S as oe, T as ot, U as K, V as y, W as ne, X as T, Y as nt, Z as it, b as P, ba as st, c as j, ca as Z, d as l, ea as ct, fa as Pe, ia as dt, j as Oe, ja as lt, k as He, ka as mt, l as Ie, m as g, n as le, na as X, o as qe, qa as me, r as Je, ra as z, s as Ye, t as N, u as Ke, ua as U, v as Ze, va as E, wa as A, x as Xe, xa as fe, y as ke, ya as ft} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-LOBV7XEK.mjs";
-import {A as F, d as R, e as Se, h as _, i as D, k as Ee, l as Ge, m as Ce, n as Me, o as H, p as We, q as V, t as q, v as k, w as ze, z as e} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-5F744S32.mjs";
+import {A as Ie, B as Ze, C as Q, D as Xe, F as q, G as Ke, H as $e, I as w, J as et, L as A, M as ke, O as tt, S as re, T as rt, U as Y, V as g, W as ae, X as T, Y as at, Z as ot, b as P, ba as nt, c as V, ca as C, d as i, ea as it, ia as st, j as ze, ja as ct, k as We, ka as dt, l as _e, m as y, n as He, na as Z, o as Oe, qa as me, r as Me, ra as G, s as Je, t as N, u as Qe, ua as U, v as qe, va as z, wa as D, x as Ye, xa as oe, y as Ce, ya as lt} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-3GPPV2JX.mjs";
+import {A as _, d as b, e as je, h as R, i as B, k as Be, l as Ee, m as Re, n as Ve, o as M, p as Ae, q as E, t as J, v as k, w as Ge, z as e} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-5F744S32.mjs";
 import "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-HZL4YIMB.mjs";
 import {b as W, c as m} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-A3IIQ6X3.mjs";
-var Tt = "default"in Ie ? Oe : Ie
-  , we = {}
-  , pt = Tt;
-we.createRoot = pt.createRoot;
-we.hydrateRoot = pt.hydrateRoot;
-var Ue = we.createRoot
-  , ut = we.hydrateRoot;
-var At = A(ge)
-  , Bt = at(oe(l.nav))
-  , Lt = oe(l.header)
-  , Dt = ["mhccxAjh7", "KucBey5jS", "n8U2N_bw8", "GPC2iTHiT"]
-  , Vt = "framer-0RApw"
-  , jt = {
+var Lt = "default"in _e ? ze : _e
+  , ge = {}
+  , ht = Lt;
+ge.createRoot = ht.createRoot;
+ge.hydrateRoot = ht.hydrateRoot;
+var Ne = ge.createRoot
+  , ut = ge.hydrateRoot;
+var Dt = D(ue)
+  , St = tt(re(i.nav))
+  , jt = re(i.header)
+  , Bt = ["mhccxAjh7", "KucBey5jS", "n8U2N_bw8", "GPC2iTHiT"]
+  , Et = "framer-swoQ2"
+  , Vt = {
     GPC2iTHiT: "framer-v-1hcftmc",
     KucBey5jS: "framer-v-e972vi",
     mhccxAjh7: "framer-v-fcezbk",
     n8U2N_bw8: "framer-v-1s6ubd7"
 };
-function C(r, ...o) {
+function L(r, ...o) {
     let n = {};
     return o?.forEach(t => t && Object.assign(n, r[t])),
     n
 }
-var St = {
+var At = {
     opacity: 0,
     rotate: 0,
     rotateX: 0,
@@ -40,13 +41,13 @@ var St = {
     x: 0,
     y: 0
 }
-  , ht = {
+  , yt = {
     delay: 0,
     duration: .8,
     ease: [.44, 0, .56, 1],
     type: "tween"
 }
-  , Et = {
+  , Gt = {
     opacity: 0,
     rotate: 0,
     rotateX: 0,
@@ -54,24 +55,24 @@ var St = {
     scale: 1,
     skewX: 0,
     skewY: 0,
-    transition: ht,
+    transition: yt,
     x: 0,
     y: 0
 }
-  , Gt = {
+  , zt = {
     damping: 60,
     delay: 0,
     mass: 1,
     stiffness: 500,
     type: "spring"
 }
-  , Mt = {
+  , Wt = {
     bounce: .2,
     delay: 0,
     duration: .4,
     type: "spring"
 }
-  , Wt = {
+  , Ht = {
     opacity: 1,
     rotate: 0,
     rotateX: 0,
@@ -79,11 +80,11 @@ var St = {
     scale: 1,
     skewX: 0,
     skewY: 0,
-    transition: Mt,
+    transition: Wt,
     x: 0,
     y: 0
 }
-  , zt = {
+  , Ot = {
     opacity: .001,
     rotate: 0,
     rotateX: 0,
@@ -94,13 +95,13 @@ var St = {
     x: 0,
     y: 0
 }
-  , Ot = {
+  , Mt = {
     bounce: .25,
     delay: 0,
     duration: .45,
     type: "spring"
 }
-  , xe = {
+  , ie = {
     opacity: .5,
     rotate: 0,
     rotateX: 0,
@@ -108,22 +109,22 @@ var St = {
     scale: 1,
     skewX: 0,
     skewY: 0,
-    transition: Ot
+    transition: Mt
 }
-  , Ht = ({value: r, children: o}) => {
-    let n = H(P)
+  , Jt = ({value: r, children: o}) => {
+    let n = M(P)
       , t = r ?? n.transition
-      , s = q( () => ({
+      , d = J( () => ({
         ...n,
         transition: t
     }), [JSON.stringify(t)]);
     return e(P.Provider, {
-        value: s,
+        value: d,
         children: o
     })
 }
-  , qt = l.create(R)
-  , Jt = {
+  , Qt = i.create(b)
+  , qt = {
     "Phone: Open": "GPC2iTHiT",
     Desktop: "mhccxAjh7",
     Phone: "n8U2N_bw8",
@@ -131,65 +132,60 @@ var St = {
 }
   , Yt = ({height: r, id: o, width: n, ...t}) => ({
     ...t,
-    variant: Jt[t.variant] ?? t.variant ?? "mhccxAjh7"
+    variant: qt[t.variant] ?? t.variant ?? "mhccxAjh7"
 })
-  , Kt = (r, o) => r.layoutDependency ? o.join("-") + r.layoutDependency : o.join("-")
-  , Zt = D(function(r, o) {
+  , Zt = (r, o) => r.layoutDependency ? o.join("-") + r.layoutDependency : o.join("-")
+  , Xt = B(function(r, o) {
     let n = k(null)
       , t = o ?? n
-      , s = V()
-      , {activeLocale: p, setLocale: h} = N()
-      , a = K()
-      , {style: x, className: d, layoutId: b, variant: v, ...I} = Yt(r)
-      , {baseVariant: i, classNames: B, clearLoadingGesture: te, gestureHandlers: u, gestureVariant: f, isLoading: _e, setGestureState: je, setVariant: re, variants: O} = X({
-        cycleOrder: Dt,
+      , d = E()
+      , {activeLocale: p, setLocale: u} = N()
+      , a = Y()
+      , {style: x, className: l, layoutId: v, variant: F, ...I} = Yt(r)
+      , {baseVariant: s, classNames: S, clearLoadingGesture: ee, gestureHandlers: h, gestureVariant: f, isLoading: ve, setGestureState: Se, setVariant: le, variants: H} = Z({
+        cycleOrder: Bt,
         defaultVariant: "mhccxAjh7",
         ref: t,
-        variant: v,
-        variantClassNames: jt
+        variant: F,
+        variantClassNames: Vt
     })
-      , c = Kt(r, O)
-      , {activeVariantCallback: G, delay: ae} = dt(i)
-      , M = G(async (...L) => {
-        re("n8U2N_bw8")
+      , c = Zt(r, H)
+      , {activeVariantCallback: O, delay: te} = st(s)
+      , j = O(async (...Tt) => {
+        le("n8U2N_bw8")
     }
     )
-      , Fe = G(async (...L) => {
-        re("GPC2iTHiT")
+      , Fe = O(async (...Tt) => {
+        le("GPC2iTHiT")
     }
     )
-      , _t = G(async (...L) => {
-        re("n8U2N_bw8")
-    }
-    )
-      , Ft = w(Vt, ...[he])
-      , Ct = () => !!["n8U2N_bw8", "GPC2iTHiT"].includes(i)
-      , It = () => i !== "n8U2N_bw8"
-      , kt = () => i === "GPC2iTHiT"
-      , Sr = le()
-      , Nt = () => !["n8U2N_bw8", "GPC2iTHiT"].includes(i);
-    return e(j, {
-        id: b ?? s,
-        children: e(qt, {
-            animate: O,
+      , _t = w(Et, ...[he, pt])
+      , Ct = () => !!["n8U2N_bw8", "GPC2iTHiT"].includes(s)
+      , It = () => s !== "n8U2N_bw8"
+      , kt = () => s === "GPC2iTHiT"
+      , Nt = () => !["n8U2N_bw8", "GPC2iTHiT"].includes(s);
+    return e(V, {
+        id: v ?? d,
+        children: e(Qt, {
+            animate: H,
             initial: !1,
-            children: e(Ht, {
-                value: Gt,
-                children: e(Lt, {
+            children: e(Jt, {
+                value: zt,
+                children: e(jt, {
                     ...I,
-                    ...u,
+                    ...h,
                     __framer__animate: {
-                        transition: ht
+                        transition: yt
                     },
                     __framer__animateOnce: !0,
-                    __framer__enter: St,
-                    __framer__exit: Et,
+                    __framer__enter: At,
+                    __framer__exit: Gt,
                     __framer__styleAppearEffectEnabled: !0,
                     __framer__threshold: 0,
                     __perspectiveFX: !1,
                     __smartComponentFX: !0,
                     __targetOpacity: 1,
-                    className: w(Ft, "framer-fcezbk", d, B),
+                    className: w(_t, "framer-fcezbk", l, S),
                     "data-framer-name": "Desktop",
                     layoutDependency: c,
                     layoutId: "mhccxAjh7",
@@ -197,7 +193,7 @@ var St = {
                     style: {
                         ...x
                     },
-                    ...C({
+                    ...L({
                         GPC2iTHiT: {
                             "data-framer-name": "Phone: Open"
                         },
@@ -207,13 +203,13 @@ var St = {
                         n8U2N_bw8: {
                             "data-framer-name": "Phone"
                         }
-                    }, i, f),
-                    children: e(l.div, {
+                    }, s, f),
+                    children: e(i.div, {
                         className: "framer-15wmymh",
                         "data-framer-name": "Container",
                         layoutDependency: c,
                         layoutId: "JvMkphIHa",
-                        children: F(l.div, {
+                        children: _(i.div, {
                             className: "framer-fzi6qf",
                             "data-border": !0,
                             "data-framer-name": "Box",
@@ -249,7 +245,7 @@ var St = {
                                     borderTopRightRadius: 10
                                 }
                             },
-                            children: [e(Z, {
+                            children: [e(C, {
                                 href: {
                                     webPageId: "YRMRDNPuz"
                                 },
@@ -272,7 +268,7 @@ var St = {
                                     "data-framer-name": "Designfast-logo",
                                     layoutDependency: c,
                                     layoutId: "EFUn1SAS6",
-                                    ...C({
+                                    ...L({
                                         GPC2iTHiT: {
                                             "data-highlight": !0,
                                             background: {
@@ -285,7 +281,7 @@ var St = {
                                                 pixelWidth: 432,
                                                 src: "https://framerusercontent.com/images/B3FJ5BBWhsGmSOUVwPewj0TpWo.svg"
                                             },
-                                            onTap: M
+                                            onTap: j
                                         },
                                         KucBey5jS: {
                                             background: {
@@ -311,24 +307,24 @@ var St = {
                                                 src: "https://framerusercontent.com/images/B3FJ5BBWhsGmSOUVwPewj0TpWo.svg"
                                             }
                                         }
-                                    }, i, f)
+                                    }, s, f)
                                 })
-                            }), Ct() && F(l.div, {
+                            }), Ct() && _(i.div, {
                                 className: "framer-e5ehj1",
                                 "data-framer-name": "Phone Nav Icon",
                                 layoutDependency: c,
                                 layoutId: "JaaoxOolF",
-                                ...C({
+                                ...L({
                                     GPC2iTHiT: {
                                         "data-highlight": !0,
-                                        onTap: M
+                                        onTap: j
                                     },
                                     n8U2N_bw8: {
                                         "data-highlight": !0,
                                         onTap: Fe
                                     }
-                                }, i, f),
-                                children: [e(l.div, {
+                                }, s, f),
+                                children: [e(i.div, {
                                     className: "framer-12bfuim",
                                     "data-framer-name": "Bottom",
                                     layoutDependency: c,
@@ -342,7 +338,7 @@ var St = {
                                             rotate: -45
                                         }
                                     }
-                                }), e(l.div, {
+                                }), e(i.div, {
                                     className: "framer-1ozstlz",
                                     "data-framer-name": "Top",
                                     layoutDependency: c,
@@ -357,7 +353,7 @@ var St = {
                                         }
                                     }
                                 })]
-                            }), It() && F(Bt, {
+                            }), It() && _(St, {
                                 className: "framer-mxp8p6",
                                 "data-framer-appear-id": "mxp8p6",
                                 "data-framer-name": "Links",
@@ -391,27 +387,42 @@ var St = {
                                         borderTopRightRadius: 10
                                     }
                                 },
-                                ...C({
+                                ...L({
                                     GPC2iTHiT: {
                                         __perspectiveFX: !1,
                                         __smartComponentFX: !0,
                                         __targetOpacity: 1,
                                         "data-border": !0,
-                                        animate: Wt,
-                                        initial: zt,
+                                        animate: Ht,
+                                        initial: Ot,
                                         optimized: !0
                                     }
-                                }, i, f),
-                                children: [e(z, {
+                                }, s, f),
+                                children: [e(G, {
                                     __fromCanvasComponent: !0,
-                                    children: e(R, {
-                                        children: e(l.p, {
+                                    children: e(b, {
+                                        children: e(i.p, {
                                             className: "framer-styles-preset-1bxrctr",
                                             "data-styles-preset": "IUIZL68H9",
                                             style: {
                                                 "--framer-text-color": "var(--extracted-r6o4lv, var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255)))"
                                             },
-                                            children: "In\xEDcio"
+                                            children: e(C, {
+                                                href: {
+                                                    webPageId: "YRMRDNPuz"
+                                                },
+                                                motionChild: !0,
+                                                nodeId: "SdrfdVNsa",
+                                                openInNewTab: !1,
+                                                relValues: [],
+                                                scopeId: "vjF7Ur2KS",
+                                                smoothScroll: !1,
+                                                children: e(i.a, {
+                                                    className: "framer-styles-preset-1ysybhb",
+                                                    "data-styles-preset": "FoAA9VRJg",
+                                                    children: "In\xEDcio"
+                                                })
+                                            })
                                         })
                                     }),
                                     className: "framer-12afj0v",
@@ -422,24 +433,40 @@ var St = {
                                         "--extracted-r6o4lv": "var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255))"
                                     },
                                     verticalAlignment: "top",
-                                    whileHover: xe,
+                                    whileHover: ie,
                                     withExternalLayout: !0,
-                                    ...C({
+                                    ...L({
                                         GPC2iTHiT: {
                                             "data-highlight": !0,
-                                            onTap: M
+                                            onTap: j
                                         }
-                                    }, i, f)
-                                }), e(z, {
+                                    }, s, f)
+                                }), e(G, {
                                     __fromCanvasComponent: !0,
-                                    children: e(R, {
-                                        children: e(l.p, {
+                                    children: e(b, {
+                                        children: e(i.p, {
                                             className: "framer-styles-preset-1bxrctr",
                                             "data-styles-preset": "IUIZL68H9",
                                             style: {
                                                 "--framer-text-color": "var(--extracted-r6o4lv, var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255)))"
                                             },
-                                            children: "Sobre mim"
+                                            children: e(C, {
+                                                href: {
+                                                    hash: ":xJN2mZXcm",
+                                                    webPageId: "YRMRDNPuz"
+                                                },
+                                                motionChild: !0,
+                                                nodeId: "DnP7DycL6",
+                                                openInNewTab: !1,
+                                                relValues: [],
+                                                scopeId: "vjF7Ur2KS",
+                                                smoothScroll: !1,
+                                                children: e(i.a, {
+                                                    className: "framer-styles-preset-1ysybhb",
+                                                    "data-styles-preset": "FoAA9VRJg",
+                                                    children: "Sobre mim"
+                                                })
+                                            })
                                         })
                                     }),
                                     className: "framer-18kz2vn",
@@ -450,24 +477,40 @@ var St = {
                                         "--extracted-r6o4lv": "var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255))"
                                     },
                                     verticalAlignment: "top",
-                                    whileHover: xe,
+                                    whileHover: ie,
                                     withExternalLayout: !0,
-                                    ...C({
+                                    ...L({
                                         GPC2iTHiT: {
                                             "data-highlight": !0,
-                                            onTap: M
+                                            onTap: j
                                         }
-                                    }, i, f)
-                                }), e(z, {
+                                    }, s, f)
+                                }), e(G, {
                                     __fromCanvasComponent: !0,
-                                    children: e(R, {
-                                        children: e(l.p, {
+                                    children: e(b, {
+                                        children: e(i.p, {
                                             className: "framer-styles-preset-1bxrctr",
                                             "data-styles-preset": "IUIZL68H9",
                                             style: {
                                                 "--framer-text-color": "var(--extracted-r6o4lv, var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255)))"
                                             },
-                                            children: "Projetos"
+                                            children: e(C, {
+                                                href: {
+                                                    hash: ":wP830aGSA",
+                                                    webPageId: "YRMRDNPuz"
+                                                },
+                                                motionChild: !0,
+                                                nodeId: "trx3m2TV3",
+                                                openInNewTab: !1,
+                                                relValues: [],
+                                                scopeId: "vjF7Ur2KS",
+                                                smoothScroll: !1,
+                                                children: e(i.a, {
+                                                    className: "framer-styles-preset-1ysybhb",
+                                                    "data-styles-preset": "FoAA9VRJg",
+                                                    children: "Projetos"
+                                                })
+                                            })
                                         })
                                     }),
                                     className: "framer-ocdf9r",
@@ -478,24 +521,40 @@ var St = {
                                         "--extracted-r6o4lv": "var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255))"
                                     },
                                     verticalAlignment: "top",
-                                    whileHover: xe,
+                                    whileHover: ie,
                                     withExternalLayout: !0,
-                                    ...C({
+                                    ...L({
                                         GPC2iTHiT: {
                                             "data-highlight": !0,
-                                            onTap: M
+                                            onTap: j
                                         }
-                                    }, i, f)
-                                }), e(z, {
+                                    }, s, f)
+                                }), e(G, {
                                     __fromCanvasComponent: !0,
-                                    children: e(R, {
-                                        children: e(l.p, {
+                                    children: e(b, {
+                                        children: e(i.p, {
                                             className: "framer-styles-preset-1bxrctr",
                                             "data-styles-preset": "IUIZL68H9",
                                             style: {
                                                 "--framer-text-color": "var(--extracted-r6o4lv, var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255)))"
                                             },
-                                            children: "Habilidades"
+                                            children: e(C, {
+                                                href: {
+                                                    hash: ":nXSzhqWRq",
+                                                    webPageId: "YRMRDNPuz"
+                                                },
+                                                motionChild: !0,
+                                                nodeId: "ZdZJESNjr",
+                                                openInNewTab: !1,
+                                                relValues: [],
+                                                scopeId: "vjF7Ur2KS",
+                                                smoothScroll: !0,
+                                                children: e(i.a, {
+                                                    className: "framer-styles-preset-1ysybhb",
+                                                    "data-styles-preset": "FoAA9VRJg",
+                                                    children: "Viv\xEAncias"
+                                                })
+                                            })
                                         })
                                     }),
                                     className: "framer-1fl5ujf",
@@ -506,100 +565,105 @@ var St = {
                                         "--extracted-r6o4lv": "var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255))"
                                     },
                                     verticalAlignment: "top",
-                                    whileHover: xe,
+                                    whileHover: ie,
                                     withExternalLayout: !0,
-                                    ...C({
+                                    ...L({
                                         GPC2iTHiT: {
                                             "data-highlight": !0,
-                                            onTap: M
+                                            onTap: j
                                         }
-                                    }, i, f)
-                                }), kt() && e(Pe, {
-                                    links: [{
-                                        href: {
-                                            webPageId: "xIBnPR7GQ"
-                                        },
-                                        implicitPathVariables: void 0
-                                    }, {
-                                        href: {
-                                            webPageId: "xIBnPR7GQ"
-                                        },
-                                        implicitPathVariables: void 0
-                                    }],
-                                    children: L => e(y, {
-                                        ...C({
-                                            GPC2iTHiT: {
-                                                height: 52,
-                                                y: (a?.y || 0) + 20 + (((a?.height || 97) - 40 - 57) / 2 + 0 + 0) + 0 + 0 + 70 + 50 + 235.2
-                                            }
-                                        }, i, f),
-                                        children: e(T, {
-                                            className: "framer-fnr3sj-container",
-                                            "data-framer-name": "Contact",
-                                            layoutDependency: c,
-                                            layoutId: "gJzCG1xvg-container",
-                                            name: "Contact",
-                                            nodeId: "gJzCG1xvg",
-                                            rendersWithMotion: !0,
-                                            scopeId: "vjF7Ur2KS",
-                                            children: e(ge, {
-                                                BBQTntNpF: _t,
-                                                c8KKo7_K6: L[0],
-                                                cO5PVor7Z: "Contact us",
-                                                height: "100%",
-                                                id: "gJzCG1xvg",
-                                                layoutId: "gJzCG1xvg",
-                                                name: "Contact",
-                                                variant: "Gqi2UrvU6",
-                                                width: "100%",
-                                                ...C({
-                                                    GPC2iTHiT: {
-                                                        c8KKo7_K6: L[1]
-                                                    }
-                                                }, i, f)
+                                    }, s, f)
+                                }), e(G, {
+                                    __fromCanvasComponent: !0,
+                                    children: e(b, {
+                                        children: e(i.p, {
+                                            className: "framer-styles-preset-1bxrctr",
+                                            "data-styles-preset": "IUIZL68H9",
+                                            style: {
+                                                "--framer-text-color": "var(--extracted-r6o4lv, var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255)))"
+                                            },
+                                            children: e(C, {
+                                                href: {
+                                                    hash: ":NT7YHkrER",
+                                                    webPageId: "YRMRDNPuz"
+                                                },
+                                                motionChild: !0,
+                                                nodeId: "YL0IxHU60",
+                                                openInNewTab: !1,
+                                                relValues: [],
+                                                scopeId: "vjF7Ur2KS",
+                                                smoothScroll: !1,
+                                                children: e(i.a, {
+                                                    className: "framer-styles-preset-1ysybhb",
+                                                    "data-styles-preset": "FoAA9VRJg",
+                                                    children: "Habilidades"
+                                                })
                                             })
+                                        })
+                                    }),
+                                    className: "framer-1hc6fq1",
+                                    fonts: ["Inter"],
+                                    layoutDependency: c,
+                                    layoutId: "YL0IxHU60",
+                                    style: {
+                                        "--extracted-r6o4lv": "var(--token-20688f72-4014-4fdd-8f45-83cd36cc544b, rgb(255, 255, 255))"
+                                    },
+                                    verticalAlignment: "top",
+                                    whileHover: ie,
+                                    withExternalLayout: !0,
+                                    ...L({
+                                        GPC2iTHiT: {
+                                            "data-highlight": !0,
+                                            onTap: j
+                                        }
+                                    }, s, f)
+                                }), kt() && e(g, {
+                                    ...L({
+                                        GPC2iTHiT: {
+                                            height: 52,
+                                            y: (a?.y || 0) + 20 + (((a?.height || 97) - 40 - 57) / 2 + 0 + 0) + 0 + 0 + 70 + 50 + 294
+                                        }
+                                    }, s, f),
+                                    children: e(T, {
+                                        className: "framer-fnr3sj-container",
+                                        "data-framer-name": "Contact",
+                                        layoutDependency: c,
+                                        layoutId: "gJzCG1xvg-container",
+                                        name: "Contact",
+                                        nodeId: "gJzCG1xvg",
+                                        rendersWithMotion: !0,
+                                        scopeId: "vjF7Ur2KS",
+                                        children: e(ue, {
+                                            cO5PVor7Z: "Curr\xEDculo CV",
+                                            height: "100%",
+                                            id: "gJzCG1xvg",
+                                            layoutId: "gJzCG1xvg",
+                                            name: "Contact",
+                                            variant: "P8pbJIsXC",
+                                            width: "100%"
                                         })
                                     })
                                 })]
-                            }), Nt() && e(Pe, {
-                                links: [{
-                                    href: {
-                                        webPageId: "xIBnPR7GQ"
-                                    },
-                                    implicitPathVariables: void 0
-                                }, {
-                                    href: {
-                                        webPageId: "xIBnPR7GQ"
-                                    },
-                                    implicitPathVariables: void 0
-                                }],
-                                children: L => e(y, {
-                                    height: 52,
-                                    y: (a?.y || 0) + 30 + (((a?.height || 142) - 60 - 82) / 2 + 0 + 0) + 0 + 0 + 15,
-                                    children: e(T, {
-                                        className: "framer-1brru4f-container",
-                                        "data-framer-name": "Contact",
-                                        layoutDependency: c,
-                                        layoutId: "cktqV1Sxk-container",
+                            }), Nt() && e(g, {
+                                height: 52,
+                                y: (a?.y || 0) + 30 + (((a?.height || 142) - 60 - 82) / 2 + 0 + 0) + 0 + 0 + 15,
+                                children: e(T, {
+                                    className: "framer-1brru4f-container",
+                                    "data-framer-name": "Contact",
+                                    layoutDependency: c,
+                                    layoutId: "cktqV1Sxk-container",
+                                    name: "Contact",
+                                    nodeId: "cktqV1Sxk",
+                                    rendersWithMotion: !0,
+                                    scopeId: "vjF7Ur2KS",
+                                    children: e(ue, {
+                                        cO5PVor7Z: "Curr\xEDculo CV",
+                                        height: "100%",
+                                        id: "cktqV1Sxk",
+                                        layoutId: "cktqV1Sxk",
                                         name: "Contact",
-                                        nodeId: "cktqV1Sxk",
-                                        rendersWithMotion: !0,
-                                        scopeId: "vjF7Ur2KS",
-                                        children: e(ge, {
-                                            c8KKo7_K6: L[0],
-                                            cO5PVor7Z: "Contato",
-                                            height: "100%",
-                                            id: "cktqV1Sxk",
-                                            layoutId: "cktqV1Sxk",
-                                            name: "Contact",
-                                            variant: "Gqi2UrvU6",
-                                            width: "100%",
-                                            ...C({
-                                                KucBey5jS: {
-                                                    c8KKo7_K6: L[1]
-                                                }
-                                            }, i, f)
-                                        })
+                                        variant: "P8pbJIsXC",
+                                        width: "100%"
                                     })
                                 })
                             })]
@@ -610,23 +674,23 @@ var St = {
         })
     })
 })
-  , Xt = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-0RApw.framer-1l4u80b, .framer-0RApw .framer-1l4u80b { display: block; }", ".framer-0RApw.framer-fcezbk { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 30px; position: relative; width: 1200px; }", ".framer-0RApw .framer-15wmymh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 0px; position: relative; width: 100%; }", ".framer-0RApw .framer-fzi6qf { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: visible; padding: 15px 15px 15px 30px; position: relative; width: 100%; }", ".framer-0RApw .framer-dxyxwo { aspect-ratio: 4.722222222222222 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 32px); overflow: visible; position: relative; text-decoration: none; width: 151px; }", ".framer-0RApw .framer-e5ehj1 { flex: none; height: 27px; overflow: hidden; position: relative; width: 18px; }", ".framer-0RApw .framer-12bfuim { flex: none; height: 2px; overflow: hidden; position: absolute; right: 0px; top: calc(62.96296296296299% - 2px / 2); width: 18px; }", ".framer-0RApw .framer-1ozstlz { flex: none; height: 2px; overflow: hidden; position: absolute; right: 0px; top: calc(37.03703703703706% - 2px / 2); width: 13px; }", ".framer-0RApw .framer-mxp8p6 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }", ".framer-0RApw .framer-12afj0v, .framer-0RApw .framer-18kz2vn, .framer-0RApw .framer-ocdf9r, .framer-0RApw .framer-1fl5ujf { flex: none; height: auto; position: relative; white-space: pre; width: auto; will-change: var(--framer-will-change-effect-override, transform); }", ".framer-0RApw .framer-fnr3sj-container, .framer-0RApw .framer-1brru4f-container { flex: none; height: auto; position: relative; width: auto; }", ".framer-0RApw.framer-v-e972vi.framer-fcezbk { width: 810px; }", ".framer-0RApw.framer-v-e972vi .framer-15wmymh { max-width: 850px; }", ".framer-0RApw.framer-v-e972vi .framer-fzi6qf, .framer-0RApw.framer-v-1s6ubd7 .framer-fzi6qf, .framer-0RApw.framer-v-1hcftmc .framer-fzi6qf { padding: 15px 15px 15px 20px; }", ".framer-0RApw.framer-v-e972vi .framer-dxyxwo, .framer-0RApw.framer-v-1s6ubd7 .framer-dxyxwo { height: var(--framer-aspect-ratio-supported, 25px); width: 118px; }", ".framer-0RApw.framer-v-e972vi .framer-mxp8p6 { gap: 20px; }", ".framer-0RApw.framer-v-1s6ubd7.framer-fcezbk, .framer-0RApw.framer-v-1hcftmc.framer-fcezbk { padding: 20px; width: 390px; }", ".framer-0RApw.framer-v-1s6ubd7 .framer-15wmymh, .framer-0RApw.framer-v-1hcftmc .framer-15wmymh { max-width: 600px; }", ".framer-0RApw.framer-v-1s6ubd7 .framer-e5ehj1, .framer-0RApw.framer-v-1hcftmc .framer-e5ehj1 { cursor: pointer; }", ".framer-0RApw.framer-v-1hcftmc .framer-dxyxwo { cursor: pointer; height: var(--framer-aspect-ratio-supported, 25px); width: 118px; }", ".framer-0RApw.framer-v-1hcftmc .framer-12bfuim { top: calc(55.55555555555558% - 2px / 2); }", ".framer-0RApw.framer-v-1hcftmc .framer-1ozstlz { top: calc(55.55555555555558% - 2px / 2); width: 18px; }", ".framer-0RApw.framer-v-1hcftmc .framer-mxp8p6 { flex-direction: column; gap: 30px; left: 0px; padding: 50px; position: absolute; right: 0px; top: 70px; width: unset; z-index: 10; }", ".framer-0RApw.framer-v-1hcftmc .framer-12afj0v { cursor: pointer; order: 0; }", ".framer-0RApw.framer-v-1hcftmc .framer-18kz2vn { cursor: pointer; order: 2; }", ".framer-0RApw.framer-v-1hcftmc .framer-ocdf9r { cursor: pointer; order: 1; }", ".framer-0RApw.framer-v-1hcftmc .framer-1fl5ujf { cursor: pointer; order: 3; }", ".framer-0RApw.framer-v-1hcftmc .framer-fnr3sj-container { order: 4; }", ...ue, '.framer-0RApw[data-border="true"]::after, .framer-0RApw [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }']
-  , se = S(Zt, Xt, "framer-0RApw")
-  , Ae = se;
+  , Kt = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-swoQ2.framer-1l4u80b, .framer-swoQ2 .framer-1l4u80b { display: block; }", ".framer-swoQ2.framer-fcezbk { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 30px; position: relative; width: 1200px; }", ".framer-swoQ2 .framer-15wmymh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 0px; position: relative; width: 100%; }", ".framer-swoQ2 .framer-fzi6qf { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: visible; padding: 15px 15px 15px 30px; position: relative; width: 100%; }", ".framer-swoQ2 .framer-dxyxwo { aspect-ratio: 4.722222222222222 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 32px); overflow: visible; position: relative; text-decoration: none; width: 151px; }", ".framer-swoQ2 .framer-e5ehj1 { flex: none; height: 27px; overflow: hidden; position: relative; width: 18px; }", ".framer-swoQ2 .framer-12bfuim { flex: none; height: 2px; overflow: hidden; position: absolute; right: 0px; top: calc(62.96296296296299% - 2px / 2); width: 18px; }", ".framer-swoQ2 .framer-1ozstlz { flex: none; height: 2px; overflow: hidden; position: absolute; right: 0px; top: calc(37.03703703703706% - 2px / 2); width: 13px; }", ".framer-swoQ2 .framer-mxp8p6 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }", ".framer-swoQ2 .framer-12afj0v, .framer-swoQ2 .framer-18kz2vn, .framer-swoQ2 .framer-ocdf9r, .framer-swoQ2 .framer-1fl5ujf, .framer-swoQ2 .framer-1hc6fq1 { flex: none; height: auto; position: relative; white-space: pre; width: auto; will-change: var(--framer-will-change-effect-override, transform); }", ".framer-swoQ2 .framer-fnr3sj-container, .framer-swoQ2 .framer-1brru4f-container { flex: none; height: auto; position: relative; width: auto; }", ".framer-swoQ2.framer-v-e972vi.framer-fcezbk { width: 810px; }", ".framer-swoQ2.framer-v-e972vi .framer-15wmymh { max-width: 850px; }", ".framer-swoQ2.framer-v-e972vi .framer-fzi6qf, .framer-swoQ2.framer-v-1s6ubd7 .framer-fzi6qf, .framer-swoQ2.framer-v-1hcftmc .framer-fzi6qf { padding: 15px 15px 15px 20px; }", ".framer-swoQ2.framer-v-e972vi .framer-dxyxwo, .framer-swoQ2.framer-v-1s6ubd7 .framer-dxyxwo { height: var(--framer-aspect-ratio-supported, 25px); width: 118px; }", ".framer-swoQ2.framer-v-e972vi .framer-mxp8p6 { gap: 20px; }", ".framer-swoQ2.framer-v-1s6ubd7.framer-fcezbk, .framer-swoQ2.framer-v-1hcftmc.framer-fcezbk { padding: 20px; width: 390px; }", ".framer-swoQ2.framer-v-1s6ubd7 .framer-15wmymh, .framer-swoQ2.framer-v-1hcftmc .framer-15wmymh { max-width: 600px; }", ".framer-swoQ2.framer-v-1s6ubd7 .framer-e5ehj1, .framer-swoQ2.framer-v-1hcftmc .framer-e5ehj1 { cursor: pointer; }", ".framer-swoQ2.framer-v-1hcftmc .framer-dxyxwo { cursor: pointer; height: var(--framer-aspect-ratio-supported, 25px); width: 118px; }", ".framer-swoQ2.framer-v-1hcftmc .framer-12bfuim { top: calc(55.55555555555558% - 2px / 2); }", ".framer-swoQ2.framer-v-1hcftmc .framer-1ozstlz { top: calc(55.55555555555558% - 2px / 2); width: 18px; }", ".framer-swoQ2.framer-v-1hcftmc .framer-mxp8p6 { flex-direction: column; gap: 30px; left: 0px; padding: 50px; position: absolute; right: 0px; top: 70px; width: unset; z-index: 10; }", ".framer-swoQ2.framer-v-1hcftmc .framer-12afj0v { cursor: pointer; order: 0; }", ".framer-swoQ2.framer-v-1hcftmc .framer-18kz2vn { cursor: pointer; order: 2; }", ".framer-swoQ2.framer-v-1hcftmc .framer-ocdf9r { cursor: pointer; order: 1; }", ".framer-swoQ2.framer-v-1hcftmc .framer-1fl5ujf { cursor: pointer; order: 3; }", ".framer-swoQ2.framer-v-1hcftmc .framer-1hc6fq1 { cursor: pointer; order: 4; }", ".framer-swoQ2.framer-v-1hcftmc .framer-fnr3sj-container { order: 5; }", ...pe, ...ft, '.framer-swoQ2[data-border="true"]::after, .framer-swoQ2 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }']
+  , se = A(Xt, Kt, "framer-swoQ2")
+  , Te = se;
 se.displayName = "Header";
 se.defaultProps = {
     height: 142,
     width: 1200
 };
-Y(se, {
+q(se, {
     variant: {
         options: ["mhccxAjh7", "KucBey5jS", "n8U2N_bw8", "GPC2iTHiT"],
         optionTitles: ["Desktop", "Tablet", "Phone", "Phone: Open"],
         title: "Variant",
-        type: J.Enum
+        type: Q.Enum
     }
 });
-E(se, [{
+z(se, [{
     explicitInter: !0,
     fonts: [{
         family: "Inter",
@@ -678,74 +742,74 @@ E(se, [{
         url: "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
         weight: "400"
     }]
-}, ...At, ...fe(pe)], {
+}, ...Dt, ...oe(fe), ...oe(mt)], {
     supportsExplicitInterCodegen: !0
 });
-var Qt = A(ye)
-  , gt = et(ye)
-  , $t = "framer-GlTLx"
-  , er = {
+var $t = D(ye)
+  , gt = Ke(ye)
+  , er = "framer-GlTLx"
+  , tr = {
     WLPj3DArl: "framer-v-ml2wmh"
 };
-var tr = {
+var rr = {
     bounce: .2,
     delay: 0,
     duration: .4,
     type: "spring"
 }
-  , rr = ({value: r, children: o}) => {
-    let n = H(P)
+  , ar = ({value: r, children: o}) => {
+    let n = M(P)
       , t = r ?? n.transition
-      , s = q( () => ({
+      , d = J( () => ({
         ...n,
         transition: t
     }), [JSON.stringify(t)]);
     return e(P.Provider, {
-        value: s,
+        value: d,
         children: o
     })
 }
-  , ar = l.create(R)
-  , or = ({height: r, icon: o, id: n, link: t, width: s, ...p}) => ({
+  , or = i.create(b)
+  , nr = ({height: r, icon: o, id: n, link: t, width: d, ...p}) => ({
     ...p,
     F_RbgehG4: o ?? p.F_RbgehG4 ?? "XLogo",
     WmPjYLEK9: t ?? p.WmPjYLEK9
 })
-  , nr = (r, o) => r.layoutDependency ? o.join("-") + r.layoutDependency : o.join("-")
-  , ir = D(function(r, o) {
+  , ir = (r, o) => r.layoutDependency ? o.join("-") + r.layoutDependency : o.join("-")
+  , sr = B(function(r, o) {
     let n = k(null)
       , t = o ?? n
-      , s = V()
-      , {activeLocale: p, setLocale: h} = N()
-      , a = K()
-      , {style: x, className: d, layoutId: b, variant: v, F_RbgehG4: I, WmPjYLEK9: i, ...B} = or(r)
-      , {baseVariant: te, classNames: u, clearLoadingGesture: f, gestureHandlers: _e, gestureVariant: je, isLoading: re, setGestureState: O, setVariant: c, variants: G} = X({
+      , d = E()
+      , {activeLocale: p, setLocale: u} = N()
+      , a = Y()
+      , {style: x, className: l, layoutId: v, variant: F, F_RbgehG4: I, WmPjYLEK9: s, ...S} = nr(r)
+      , {baseVariant: ee, classNames: h, clearLoadingGesture: f, gestureHandlers: ve, gestureVariant: Se, isLoading: le, setGestureState: H, setVariant: c, variants: O} = Z({
         defaultVariant: "WLPj3DArl",
         ref: t,
-        variant: v,
-        variantClassNames: er
+        variant: F,
+        variantClassNames: tr
     })
-      , ae = nr(r, G)
-      , Fe = w($t, ...[]);
-    return e(j, {
-        id: b ?? s,
-        children: e(ar, {
-            animate: G,
+      , te = ir(r, O)
+      , Fe = w(er, ...[]);
+    return e(V, {
+        id: v ?? d,
+        children: e(or, {
+            animate: O,
             initial: !1,
-            children: e(rr, {
-                value: tr,
-                children: e(Z, {
-                    href: i,
+            children: e(ar, {
+                value: rr,
+                children: e(C, {
+                    href: s,
                     motionChild: !0,
                     nodeId: "WLPj3DArl",
                     scopeId: "EvwZiEMUD",
-                    children: e(l.a, {
-                        ...B,
-                        ..._e,
-                        className: `${w(Fe, "framer-ml2wmh", d, u)} framer-5q6ht1`,
+                    children: e(i.a, {
+                        ...S,
+                        ...ve,
+                        className: `${w(Fe, "framer-ml2wmh", l, h)} framer-5q6ht1`,
                         "data-border": !0,
                         "data-framer-name": "Desktop",
-                        layoutDependency: ae,
+                        layoutDependency: te,
                         layoutId: "WLPj3DArl",
                         ref: t,
                         style: {
@@ -762,13 +826,13 @@ var tr = {
                             borderTopRightRadius: 5,
                             ...x
                         },
-                        children: e(y, {
+                        children: e(g, {
                             children: e(T, {
                                 className: "framer-1quwp7r-container",
                                 "data-framer-name": "Icon",
                                 isAuthoredByUser: !0,
                                 isModuleExternal: !0,
-                                layoutDependency: ae,
+                                layoutDependency: te,
                                 layoutId: "B8Pb68ZGt-container",
                                 name: "Icon",
                                 nodeId: "B8Pb68ZGt",
@@ -799,15 +863,15 @@ var tr = {
         })
     })
 })
-  , sr = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-GlTLx.framer-5q6ht1, .framer-GlTLx .framer-5q6ht1 { display: block; }", ".framer-GlTLx.framer-ml2wmh { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: hidden; padding: 10px; position: relative; text-decoration: none; width: min-content; will-change: var(--framer-will-change-override, transform); }", ".framer-GlTLx .framer-1quwp7r-container { flex: none; height: 20px; position: relative; width: 20px; }", "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-GlTLx.framer-ml2wmh { gap: 0px; } .framer-GlTLx.framer-ml2wmh > * { margin: 0px; margin-bottom: calc(50px / 2); margin-top: calc(50px / 2); } .framer-GlTLx.framer-ml2wmh > :first-child { margin-top: 0px; } .framer-GlTLx.framer-ml2wmh > :last-child { margin-bottom: 0px; } }", '.framer-GlTLx[data-border="true"]::after, .framer-GlTLx [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }']
-  , ce = S(ir, sr, "framer-GlTLx")
-  , Q = ce;
+  , cr = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-GlTLx.framer-5q6ht1, .framer-GlTLx .framer-5q6ht1 { display: block; }", ".framer-GlTLx.framer-ml2wmh { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: hidden; padding: 10px; position: relative; text-decoration: none; width: min-content; will-change: var(--framer-will-change-override, transform); }", ".framer-GlTLx .framer-1quwp7r-container { flex: none; height: 20px; position: relative; width: 20px; }", "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-GlTLx.framer-ml2wmh { gap: 0px; } .framer-GlTLx.framer-ml2wmh > * { margin: 0px; margin-bottom: calc(50px / 2); margin-top: calc(50px / 2); } .framer-GlTLx.framer-ml2wmh > :first-child { margin-top: 0px; } .framer-GlTLx.framer-ml2wmh > :last-child { margin-bottom: 0px; } }", '.framer-GlTLx[data-border="true"]::after, .framer-GlTLx [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }']
+  , ce = A(sr, cr, "framer-GlTLx")
+  , X = ce;
 ce.displayName = "Social Icon";
 ce.defaultProps = {
     height: 40,
     width: 40
 };
-Y(ce, {
+q(ce, {
     F_RbgehG4: gt?.iconSelection && {
         ...gt.iconSelection,
         defaultValue: "XLogo",
@@ -817,30 +881,30 @@ Y(ce, {
     },
     WmPjYLEK9: {
         title: "Link",
-        type: J.Link
+        type: Q.Link
     }
 });
-E(ce, [{
+z(ce, [{
     explicitInter: !0,
     fonts: []
-}, ...Qt], {
+}, ...$t], {
     supportsExplicitInterCodegen: !0
 });
-var cr = A(Q)
-  , dr = oe(l.footer)
-  , lr = ["LWt03mMwT", "bf0eFeJ1G", "DsN8w9WBb"]
-  , mr = "framer-cqMNV"
-  , fr = {
+var dr = D(X)
+  , lr = re(i.footer)
+  , mr = ["LWt03mMwT", "bf0eFeJ1G", "DsN8w9WBb"]
+  , fr = "framer-bRLNk"
+  , pr = {
     bf0eFeJ1G: "framer-v-57zyg0",
     DsN8w9WBb: "framer-v-5aktjl",
     LWt03mMwT: "framer-v-1564x9i"
 };
-function $(r, ...o) {
+function K(r, ...o) {
     let n = {};
     return o?.forEach(t => t && Object.assign(n, r[t])),
     n
 }
-var pr = {
+var hr = {
     opacity: 0,
     rotate: 0,
     rotateX: 0,
@@ -851,7 +915,7 @@ var pr = {
     x: 0,
     y: 0
 }
-  , yt = {
+  , bt = {
     delay: .2,
     duration: .8,
     ease: [.44, 0, .56, 1],
@@ -865,29 +929,29 @@ var pr = {
     scale: 1,
     skewX: 0,
     skewY: 0,
-    transition: yt,
+    transition: bt,
     x: 0,
     y: 0
 }
-  , hr = {
+  , yr = {
     bounce: .2,
     delay: 0,
     duration: .4,
     type: "spring"
 }
   , gr = ({value: r, children: o}) => {
-    let n = H(P)
+    let n = M(P)
       , t = r ?? n.transition
-      , s = q( () => ({
+      , d = J( () => ({
         ...n,
         transition: t
     }), [JSON.stringify(t)]);
     return e(P.Provider, {
-        value: s,
+        value: d,
         children: o
     })
 }
-  , yr = l.create(R)
+  , br = i.create(b)
   , wr = {
     Desktop: "LWt03mMwT",
     Phone: "DsN8w9WBb",
@@ -897,45 +961,45 @@ var pr = {
     ...t,
     variant: wr[t.variant] ?? t.variant ?? "LWt03mMwT"
 })
-  , br = (r, o) => r.layoutDependency ? o.join("-") + r.layoutDependency : o.join("-")
-  , vr = D(function(r, o) {
+  , vr = (r, o) => r.layoutDependency ? o.join("-") + r.layoutDependency : o.join("-")
+  , Fr = B(function(r, o) {
     let n = k(null)
       , t = o ?? n
-      , s = V()
-      , {activeLocale: p, setLocale: h} = N()
-      , a = K()
-      , {style: x, className: d, layoutId: b, variant: v, ...I} = xr(r)
-      , {baseVariant: i, classNames: B, clearLoadingGesture: te, gestureHandlers: u, gestureVariant: f, isLoading: _e, setGestureState: je, setVariant: re, variants: O} = X({
-        cycleOrder: lr,
+      , d = E()
+      , {activeLocale: p, setLocale: u} = N()
+      , a = Y()
+      , {style: x, className: l, layoutId: v, variant: F, ...I} = xr(r)
+      , {baseVariant: s, classNames: S, clearLoadingGesture: ee, gestureHandlers: h, gestureVariant: f, isLoading: ve, setGestureState: Se, setVariant: le, variants: H} = Z({
+        cycleOrder: mr,
         defaultVariant: "LWt03mMwT",
         ref: t,
-        variant: v,
-        variantClassNames: fr
+        variant: F,
+        variantClassNames: pr
     })
-      , c = br(r, O)
-      , ae = w(mr, ...[he]);
-    return e(j, {
-        id: b ?? s,
-        children: e(yr, {
-            animate: O,
+      , c = vr(r, H)
+      , te = w(fr, ...[he]);
+    return e(V, {
+        id: v ?? d,
+        children: e(br, {
+            animate: H,
             initial: !1,
             children: e(gr, {
-                value: hr,
-                children: e(dr, {
+                value: yr,
+                children: e(lr, {
                     ...I,
-                    ...u,
+                    ...h,
                     __framer__animate: {
-                        transition: yt
+                        transition: bt
                     },
                     __framer__animateOnce: !0,
-                    __framer__enter: pr,
+                    __framer__enter: hr,
                     __framer__exit: ur,
                     __framer__styleAppearEffectEnabled: !0,
                     __framer__threshold: 0,
                     __perspectiveFX: !1,
                     __smartComponentFX: !0,
                     __targetOpacity: 1,
-                    className: w(ae, "framer-1564x9i", d, B),
+                    className: w(te, "framer-1564x9i", l, S),
                     "data-border": !0,
                     "data-framer-name": "Desktop",
                     layoutDependency: c,
@@ -950,29 +1014,29 @@ var pr = {
                         "--border-top-width": "1px",
                         ...x
                     },
-                    ...$({
+                    ...K({
                         bf0eFeJ1G: {
                             "data-framer-name": "Tablet"
                         },
                         DsN8w9WBb: {
                             "data-framer-name": "Phone"
                         }
-                    }, i, f),
-                    children: e(l.div, {
+                    }, s, f),
+                    children: e(i.div, {
                         className: "framer-fu8l55",
                         "data-framer-name": "Container",
                         layoutDependency: c,
                         layoutId: "xQJZ4zZVu",
-                        children: F(l.div, {
+                        children: _(i.div, {
                             className: "framer-1efg3c5",
                             layoutDependency: c,
                             layoutId: "dgNGXhSbt",
-                            children: [F(l.div, {
+                            children: [_(i.div, {
                                 className: "framer-hkoqll",
                                 "data-framer-name": "Logo",
                                 layoutDependency: c,
                                 layoutId: "nx5f5elVX",
-                                children: [e(Z, {
+                                children: [e(C, {
                                     href: {
                                         webPageId: "YRMRDNPuz"
                                     },
@@ -986,7 +1050,7 @@ var pr = {
                                             fit: "fill",
                                             intrinsicHeight: 36,
                                             intrinsicWidth: 170,
-                                            loading: U((a?.y || 0) + 100 + (((a?.height || 301) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0 + 0),
+                                            loading: U((a?.y || 0) + 32 + (((a?.height || 203) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 0 + 19 + 0),
                                             pixelHeight: 100,
                                             pixelWidth: 432,
                                             src: "https://framerusercontent.com/images/B3FJ5BBWhsGmSOUVwPewj0TpWo.svg"
@@ -995,14 +1059,14 @@ var pr = {
                                         "data-framer-name": "Designfast-logo",
                                         layoutDependency: c,
                                         layoutId: "ApEl4Ev1N",
-                                        ...$({
+                                        ...K({
                                             bf0eFeJ1G: {
                                                 background: {
                                                     alt: "Designfast Logo",
                                                     fit: "fill",
                                                     intrinsicHeight: 36,
                                                     intrinsicWidth: 170,
-                                                    loading: U((a?.y || 0) + 100 + (((a?.height || 375) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0 + 0),
+                                                    loading: U((a?.y || 0) + 32 + (((a?.height || 239) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 0 + 19 + 0),
                                                     pixelHeight: 100,
                                                     pixelWidth: 432,
                                                     src: "https://framerusercontent.com/images/B3FJ5BBWhsGmSOUVwPewj0TpWo.svg"
@@ -1014,18 +1078,18 @@ var pr = {
                                                     fit: "fill",
                                                     intrinsicHeight: 36,
                                                     intrinsicWidth: 170,
-                                                    loading: U((a?.y || 0) + 75 + (((a?.height || 712) - 150 - 306) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0 + 0),
+                                                    loading: U((a?.y || 0) + 75 + (((a?.height || 329) - 150 - 294) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 19 + 0),
                                                     pixelHeight: 100,
                                                     pixelWidth: 432,
                                                     src: "https://framerusercontent.com/images/B3FJ5BBWhsGmSOUVwPewj0TpWo.svg"
                                                 }
                                             }
-                                        }, i, f)
+                                        }, s, f)
                                     })
-                                }), e(z, {
+                                }), e(G, {
                                     __fromCanvasComponent: !0,
-                                    children: e(R, {
-                                        children: e(l.p, {
+                                    children: e(b, {
+                                        children: e(i.p, {
                                             className: "framer-styles-preset-1bxrctr",
                                             "data-styles-preset": "IUIZL68H9",
                                             style: {
@@ -1046,22 +1110,22 @@ var pr = {
                                     verticalAlignment: "top",
                                     withExternalLayout: !0
                                 })]
-                            }), F(l.div, {
+                            }), _(i.div, {
                                 className: "framer-ydh9u",
                                 "data-framer-name": "Social Icons",
                                 layoutDependency: c,
                                 layoutId: "pRTNL63K0",
-                                children: [e(y, {
+                                children: [e(g, {
                                     height: 40,
-                                    y: (a?.y || 0) + 100 + (((a?.height || 301) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0,
-                                    ...$({
+                                    y: (a?.y || 0) + 32 + (((a?.height || 203) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 107 + 0,
+                                    ...K({
                                         bf0eFeJ1G: {
-                                            y: (a?.y || 0) + 100 + (((a?.height || 375) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0 + 0
+                                            y: (a?.y || 0) + 32 + (((a?.height || 239) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 39.5 + 0 + 0
                                         },
                                         DsN8w9WBb: {
-                                            y: (a?.y || 0) + 75 + (((a?.height || 712) - 150 - 306) / 2 + 0 + 0) + 0 + 0 + 0 + 266 + 0
+                                            y: (a?.y || 0) + 75 + (((a?.height || 329) - 150 - 294) / 2 + 0 + 0) + 0 + 0 + 0 + 254 + 0
                                         }
-                                    }, i, f),
+                                    }, s, f),
                                     children: e(T, {
                                         className: "framer-sfqdmj-container",
                                         layoutDependency: c,
@@ -1069,7 +1133,7 @@ var pr = {
                                         nodeId: "MTcPty19r",
                                         rendersWithMotion: !0,
                                         scopeId: "w07Ymg6Id",
-                                        children: e(Q, {
+                                        children: e(X, {
                                             F_RbgehG4: "MediumLogo",
                                             height: "100%",
                                             id: "MTcPty19r",
@@ -1078,17 +1142,17 @@ var pr = {
                                             WmPjYLEK9: "https://medium.com/@jackeline.costa51"
                                         })
                                     })
-                                }), e(y, {
+                                }), e(g, {
                                     height: 40,
-                                    y: (a?.y || 0) + 100 + (((a?.height || 301) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0,
-                                    ...$({
+                                    y: (a?.y || 0) + 32 + (((a?.height || 203) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 107 + 0,
+                                    ...K({
                                         bf0eFeJ1G: {
-                                            y: (a?.y || 0) + 100 + (((a?.height || 375) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0 + 45
+                                            y: (a?.y || 0) + 32 + (((a?.height || 239) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 39.5 + 0 + 45
                                         },
                                         DsN8w9WBb: {
-                                            y: (a?.y || 0) + 75 + (((a?.height || 712) - 150 - 306) / 2 + 0 + 0) + 0 + 0 + 0 + 266 + 0
+                                            y: (a?.y || 0) + 75 + (((a?.height || 329) - 150 - 294) / 2 + 0 + 0) + 0 + 0 + 0 + 254 + 0
                                         }
-                                    }, i, f),
+                                    }, s, f),
                                     children: e(T, {
                                         className: "framer-16u8aml-container",
                                         layoutDependency: c,
@@ -1096,26 +1160,26 @@ var pr = {
                                         nodeId: "aJtWWjJz2",
                                         rendersWithMotion: !0,
                                         scopeId: "w07Ymg6Id",
-                                        children: e(Q, {
+                                        children: e(X, {
                                             F_RbgehG4: "Envelope",
                                             height: "100%",
                                             id: "aJtWWjJz2",
                                             layoutId: "aJtWWjJz2",
                                             width: "100%",
-                                            WmPjYLEK9: "jackeline.costa51@gmail.com"
+                                            WmPjYLEK9: "mailto:jackeline.costa51@gmail.com"
                                         })
                                     })
-                                }), e(y, {
+                                }), e(g, {
                                     height: 40,
-                                    y: (a?.y || 0) + 100 + (((a?.height || 301) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0,
-                                    ...$({
+                                    y: (a?.y || 0) + 32 + (((a?.height || 203) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 107 + 0,
+                                    ...K({
                                         bf0eFeJ1G: {
-                                            y: (a?.y || 0) + 100 + (((a?.height || 375) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0 + 90
+                                            y: (a?.y || 0) + 32 + (((a?.height || 239) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 39.5 + 0 + 90
                                         },
                                         DsN8w9WBb: {
-                                            y: (a?.y || 0) + 75 + (((a?.height || 712) - 150 - 306) / 2 + 0 + 0) + 0 + 0 + 0 + 266 + 0
+                                            y: (a?.y || 0) + 75 + (((a?.height || 329) - 150 - 294) / 2 + 0 + 0) + 0 + 0 + 0 + 254 + 0
                                         }
-                                    }, i, f),
+                                    }, s, f),
                                     children: e(T, {
                                         className: "framer-5e5sbp-container",
                                         layoutDependency: c,
@@ -1123,7 +1187,7 @@ var pr = {
                                         nodeId: "znbKONB9C",
                                         rendersWithMotion: !0,
                                         scopeId: "w07Ymg6Id",
-                                        children: e(Q, {
+                                        children: e(X, {
                                             F_RbgehG4: "BehanceLogo",
                                             height: "100%",
                                             id: "znbKONB9C",
@@ -1132,17 +1196,17 @@ var pr = {
                                             WmPjYLEK9: "https://www.behance.net/jackelineluana"
                                         })
                                     })
-                                }), e(y, {
+                                }), e(g, {
                                     height: 40,
-                                    y: (a?.y || 0) + 100 + (((a?.height || 301) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0,
-                                    ...$({
+                                    y: (a?.y || 0) + 32 + (((a?.height || 203) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 107 + 0,
+                                    ...K({
                                         bf0eFeJ1G: {
-                                            y: (a?.y || 0) + 100 + (((a?.height || 375) - 200 - 216) / 2 + 0 + 0) + 0 + 0 + 0 + 0 + 0 + 135
+                                            y: (a?.y || 0) + 32 + (((a?.height || 239) - 64 - 254) / 2 + 0 + 0) + 0 + 0 + 39.5 + 0 + 135
                                         },
                                         DsN8w9WBb: {
-                                            y: (a?.y || 0) + 75 + (((a?.height || 712) - 150 - 306) / 2 + 0 + 0) + 0 + 0 + 0 + 266 + 0
+                                            y: (a?.y || 0) + 75 + (((a?.height || 329) - 150 - 294) / 2 + 0 + 0) + 0 + 0 + 0 + 254 + 0
                                         }
-                                    }, i, f),
+                                    }, s, f),
                                     children: e(T, {
                                         className: "framer-1o5w26a-container",
                                         layoutDependency: c,
@@ -1150,7 +1214,7 @@ var pr = {
                                         nodeId: "VV_vbZenZ",
                                         rendersWithMotion: !0,
                                         scopeId: "w07Ymg6Id",
-                                        children: e(Q, {
+                                        children: e(X, {
                                             F_RbgehG4: "LinkedinLogo",
                                             height: "100%",
                                             id: "VV_vbZenZ",
@@ -1168,23 +1232,23 @@ var pr = {
         })
     })
 })
-  , Rr = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-cqMNV.framer-1cvxpcf, .framer-cqMNV .framer-1cvxpcf { display: block; }", ".framer-cqMNV.framer-1564x9i { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: hidden; padding: 100px 30px 100px 30px; position: relative; width: 1200px; }", ".framer-cqMNV .framer-fu8l55 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; max-width: 1200px; overflow: hidden; padding: 0px; position: relative; width: 100%; }", ".framer-cqMNV .framer-1efg3c5 { display: grid; flex: none; gap: 50px; grid-auto-rows: minmax(0, 1fr); grid-template-columns: repeat(5, minmax(50px, 1fr)); grid-template-rows: repeat(1, minmax(0, 1fr)); height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }", ".framer-cqMNV .framer-hkoqll { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; grid-column: span 2; height: min-content; justify-content: center; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }", ".framer-cqMNV .framer-juk08n { aspect-ratio: 4.722222222222222 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 62px); overflow: visible; position: relative; text-decoration: none; width: 293px; }", ".framer-cqMNV .framer-dizqqr { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }", ".framer-cqMNV .framer-ydh9u { align-content: center; align-items: center; align-self: start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 5px; height: min-content; justify-content: flex-end; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }", ".framer-cqMNV .framer-sfqdmj-container, .framer-cqMNV .framer-16u8aml-container, .framer-cqMNV .framer-5e5sbp-container, .framer-cqMNV .framer-1o5w26a-container { flex: none; height: auto; position: relative; width: auto; }", ".framer-cqMNV.framer-v-57zyg0.framer-1564x9i { width: 810px; }", ".framer-cqMNV.framer-v-57zyg0 .framer-fu8l55 { max-width: 850px; }", ".framer-cqMNV.framer-v-57zyg0 .framer-1efg3c5 { gap: 30px; }", ".framer-cqMNV.framer-v-57zyg0 .framer-ydh9u { align-content: flex-end; align-items: flex-end; flex-direction: column; }", ".framer-cqMNV.framer-v-5aktjl.framer-1564x9i { padding: 75px 20px 75px 20px; width: 390px; }", ".framer-cqMNV.framer-v-5aktjl .framer-fu8l55 { max-width: 600px; }", ".framer-cqMNV.framer-v-5aktjl .framer-1efg3c5 { grid-auto-rows: min-content; grid-template-columns: repeat(1, minmax(50px, 1fr)); grid-template-rows: repeat(1, min-content); }", ".framer-cqMNV.framer-v-5aktjl .framer-hkoqll { grid-column: span 1; }", ".framer-cqMNV.framer-v-5aktjl .framer-juk08n { height: var(--framer-aspect-ratio-supported, 37px); }", ".framer-cqMNV.framer-v-5aktjl .framer-ydh9u { justify-content: flex-start; }", ...ue, '.framer-cqMNV[data-border="true"]::after, .framer-cqMNV [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }']
-  , de = S(vr, Rr, "framer-cqMNV")
-  , Be = de;
+  , Rr = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-bRLNk.framer-1cvxpcf, .framer-bRLNk .framer-1cvxpcf { display: block; }", ".framer-bRLNk.framer-1564x9i { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: hidden; padding: 32px 30px 32px 30px; position: relative; width: 1200px; }", ".framer-bRLNk .framer-fu8l55 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; max-width: 1200px; overflow: hidden; padding: 0px; position: relative; width: 100%; }", ".framer-bRLNk .framer-1efg3c5 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: hidden; padding: 0px; position: relative; width: 100%; }", ".framer-bRLNk .framer-hkoqll { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 19px 0px 19px 0px; position: relative; width: 296px; }", ".framer-bRLNk .framer-juk08n { aspect-ratio: 4.722222222222222 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 62px); overflow: visible; position: relative; text-decoration: none; width: 293px; }", ".framer-bRLNk .framer-dizqqr { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }", ".framer-bRLNk .framer-ydh9u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 5px; height: min-content; justify-content: flex-end; overflow: hidden; padding: 0px; position: relative; width: 180px; }", ".framer-bRLNk .framer-sfqdmj-container, .framer-bRLNk .framer-16u8aml-container, .framer-bRLNk .framer-5e5sbp-container, .framer-bRLNk .framer-1o5w26a-container { flex: none; height: auto; position: relative; width: auto; }", ".framer-bRLNk.framer-v-57zyg0.framer-1564x9i { width: 810px; }", ".framer-bRLNk.framer-v-57zyg0 .framer-fu8l55 { max-width: 850px; }", ".framer-bRLNk.framer-v-57zyg0 .framer-hkoqll { width: 305px; }", ".framer-bRLNk.framer-v-57zyg0 .framer-ydh9u { align-content: flex-end; align-items: flex-end; flex-direction: column; }", ".framer-bRLNk.framer-v-5aktjl.framer-1564x9i { padding: 75px 20px 75px 20px; width: 390px; }", ".framer-bRLNk.framer-v-5aktjl .framer-fu8l55 { max-width: 600px; }", ".framer-bRLNk.framer-v-5aktjl .framer-1efg3c5 { flex-direction: column; }", ".framer-bRLNk.framer-v-5aktjl .framer-hkoqll { width: 311px; }", ".framer-bRLNk.framer-v-5aktjl .framer-ydh9u { justify-content: flex-start; }", ...pe, '.framer-bRLNk[data-border="true"]::after, .framer-bRLNk [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }']
+  , de = A(Fr, Rr, "framer-bRLNk")
+  , Le = de;
 de.displayName = "Footer";
 de.defaultProps = {
-    height: 301,
+    height: 203,
     width: 1200
 };
-Y(de, {
+q(de, {
     variant: {
         options: ["LWt03mMwT", "bf0eFeJ1G", "DsN8w9WBb"],
         optionTitles: ["Desktop", "Tablet", "Phone"],
         title: "Variant",
-        type: J.Enum
+        type: Q.Enum
     }
 });
-E(de, [{
+z(de, [{
     explicitInter: !0,
     fonts: [{
         family: "Inter",
@@ -1236,31 +1300,31 @@ E(de, [{
         url: "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
         weight: "400"
     }]
-}, ...cr, ...fe(pe)], {
+}, ...dr, ...oe(fe)], {
     supportsExplicitInterCodegen: !0
 });
-var _r = A(Ae)
-  , Fr = A(Be)
-  , Cr = {
+var _r = D(Te)
+  , Cr = D(Le)
+  , Ir = {
     d6iefAT9F: "(min-width: 1200px)",
     gcwdOAbO7: "(min-width: 810px) and (max-width: 1199px)",
     v9CGJR08M: "(max-width: 809px)"
 };
-var Ir = "framer-O9kRe"
-  , kr = {
+var kr = "framer-O9kRe"
+  , Nr = {
     d6iefAT9F: "framer-v-dd529j",
     gcwdOAbO7: "framer-v-14qfqz3",
     v9CGJR08M: "framer-v-ln3rja"
 }
-  , ve = {}
-  , wt = Object.keys(ve)
+  , we = {}
+  , wt = Object.keys(we)
   , xt = ["@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }", ".framer-O9kRe.framer-zzjyxi, .framer-O9kRe .framer-zzjyxi { display: block; }", ".framer-O9kRe.framer-dd529j { align-content: center; align-items: center; background-color: var(--token-386acb33-32fd-46b6-b159-e9a3c15f8f38, #000000); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }", ".framer-O9kRe .framer-q397vq-container { flex: none; height: auto; left: 0px; position: absolute; top: 0px; width: 100%; z-index: 10; }", ".framer-O9kRe .framer-1i79fa5 { background: transparent; flex-grow: 1; height: 0px; margin: 0px; margin-bottom: -0px; position: relative; width: 0px; }", ".framer-O9kRe .framer-u4oqg7-container { flex: none; height: auto; order: 1002; position: relative; width: 100%; }", '[data-layout-template="true"] > #overlay { margin-bottom: -0px; }']
-  , Nr = {
+  , Tr = {
     d6iefAT9F: "(min-width: 1200px)",
     gcwdOAbO7: "(min-width: 810px) and (max-width: 1199px)",
     v9CGJR08M: "(max-width: 809px)"
 }
-  , Tr = ({value: r}) => st() ? null : e("style", {
+  , Lr = ({value: r}) => nt() ? null : e("style", {
     dangerouslySetInnerHTML: {
         __html: r
     },
@@ -1275,27 +1339,27 @@ var Ir = "framer-O9kRe"
     ...t,
     variant: Pr[t.variant] ?? t.variant ?? "d6iefAT9F"
 })
-  , Ar = D(function(r, o) {
+  , Dr = B(function(r, o) {
     let n = k(null)
       , t = o ?? n
-      , s = V()
-      , {activeLocale: p, setLocale: h} = N()
-      , {style: a, className: x, layoutId: d, variant: b, children: v, ...I} = Ur(r)
-      , [i,B] = lt(b, Cr, !1)
-      , te = void 0
-      , f = w(Ir, ...[]);
-    return nt({}),
-    e(rt.Provider, {
+      , d = E()
+      , {activeLocale: p, setLocale: u} = N()
+      , {style: a, className: x, layoutId: l, variant: v, children: F, ...I} = Ur(r)
+      , [s,S] = ct(v, Ir, !1)
+      , ee = void 0
+      , f = w(kr, ...[]);
+    return at({}),
+    e(et.Provider, {
         value: {
             isLayoutTemplate: !0,
             primaryVariantId: "d6iefAT9F",
-            variantClassNames: kr
+            variantClassNames: Nr
         },
-        children: F(j, {
-            id: d ?? s,
-            children: [e(Tr, {
+        children: _(V, {
+            id: l ?? d,
+            children: [e(Lr, {
                 value: ":root body { background: var(--token-386acb33-32fd-46b6-b159-e9a3c15f8f38, rgb(0, 0, 0)); }"
-            }), F(l.div, {
+            }), _(i.div, {
                 ...I,
                 className: w(f, "framer-dd529j", x),
                 "data-layout-template": !0,
@@ -1303,16 +1367,16 @@ var Ir = "framer-O9kRe"
                 style: {
                     ...a
                 },
-                children: [e(y, {
+                children: [e(g, {
                     height: 142,
                     width: "100vw",
                     y: 0,
-                    children: e(ne, {
+                    children: e(ae, {
                         className: "framer-q397vq-container",
                         nodeId: "fw1TRs7r8",
                         scopeId: "MEBSJeLFi",
-                        children: e(Te, {
-                            breakpoint: i,
+                        children: e(ke, {
+                            breakpoint: s,
                             overrides: {
                                 gcwdOAbO7: {
                                     variant: "KucBey5jS"
@@ -1321,7 +1385,7 @@ var Ir = "framer-O9kRe"
                                     variant: "n8U2N_bw8"
                                 }
                             },
-                            children: e(Ae, {
+                            children: e(Te, {
                                 height: "100%",
                                 id: "fw1TRs7r8",
                                 layoutId: "fw1TRs7r8",
@@ -1333,18 +1397,18 @@ var Ir = "framer-O9kRe"
                             })
                         })
                     })
-                }), v, e("div", {
+                }), F, e("div", {
                     className: "framer-1i79fa5"
-                }), e(y, {
+                }), e(g, {
                     height: 348,
                     width: "100vw",
                     y: 1e3,
-                    children: e(ne, {
+                    children: e(ae, {
                         className: "framer-u4oqg7-container",
                         nodeId: "vvACWudVd",
                         scopeId: "MEBSJeLFi",
-                        children: e(Te, {
-                            breakpoint: i,
+                        children: e(ke, {
+                            breakpoint: s,
                             overrides: {
                                 gcwdOAbO7: {
                                     variant: "bf0eFeJ1G"
@@ -1353,7 +1417,7 @@ var Ir = "framer-O9kRe"
                                     variant: "DsN8w9WBb"
                                 }
                             },
-                            children: e(Be, {
+                            children: e(Le, {
                                 height: "100%",
                                 id: "vvACWudVd",
                                 layoutId: "vvACWudVd",
@@ -1372,25 +1436,25 @@ var Ir = "framer-O9kRe"
         })
     })
 })
-  , Br = r => r === Ne.canvas || r === Ne.export ? [...xt, ...wt.flatMap(n => {
-    let t = ve[n];
-    return ve[n].map(s => `${t} {${s}}`)
+  , Sr = r => r === Ie.canvas || r === Ie.export ? [...xt, ...wt.flatMap(n => {
+    let t = we[n];
+    return we[n].map(d => `${t} {${d}}`)
 }
-)] : [...xt, ...wt.map(n => `@media ${Nr[n]} { ${ve[n].join(" ")} }`)]
-  , Re = S(Ar, Br, "framer-O9kRe")
-  , bt = Re;
-Re.displayName = "Main";
-Re.defaultProps = {
+)] : [...xt, ...wt.map(n => `@media ${Tr[n]} { ${we[n].join(" ")} }`)]
+  , xe = A(Dr, Sr, "framer-O9kRe")
+  , vt = xe;
+xe.displayName = "Main";
+xe.defaultProps = {
     height: 1600,
     width: 1200
 };
-E(Re, [{
+z(xe, [{
     explicitInter: !0,
     fonts: []
-}, ..._r, ...Fr], {
+}, ..._r, ...Cr], {
     supportsExplicitInterCodegen: !0
 });
-var ee = {
+var $ = {
     YRMRDNPuz: {
         elements: {
             Bv9wdXPdR: "hero",
@@ -1401,7 +1465,7 @@ var ee = {
             wpN7nZHkO: "why-choose-us",
             xJN2mZXcm: "benefits"
         },
-        page: g( () => import("https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/z6s_iEVgfka_gqXClgQxvRMgVVJMAE_YUibbJC-yYn4.ZIQCO4HP.mjs")),
+        page: y( () => import("https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/weQGaoI0xYIWKpepnXTagwU4x37esp5UFjossGEMH1E.7BOLIIBT.mjs")),
         path: "/"
     },
     XO8mqcZA9: {
@@ -1409,14 +1473,14 @@ var ee = {
             NNrqzAvKn: "hero",
             zp9ctSZ9P: "case-studies"
         },
-        page: g( () => import("./EJFO5RfnPbHQ5jvyy58Wx1axjFETv86d3BsSS4mUxuU.3XMWCDZI.mjs")),
+        page: y( () => import("https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/c3qUb8T48SvPGXk3GIpsRwXF-BejIAMe-xcFbnS3yvk.SGCDUPWK.mjs")),
         path: "/case-studies"
     },
     G752yomo0: {
         elements: {
             uNIermDHD: "hero"
         },
-        page: g( () => import("./1S_qGeSGDbD_Lg_B9L6j7dNiRL_zmWhSHyHVQmcLLx4.X6G4ZMSC.mjs")),
+        page: y( () => import("./1S_qGeSGDbD_Lg_B9L6j7dNiRL_zmWhSHyHVQmcLLx4.UOWCJU6Q.mjs")),
         path: "/404"
     },
     ujPTyfrW0: {
@@ -1426,15 +1490,23 @@ var ee = {
             pXVa5beSW: "our-team",
             YwRktO7lp: "our-mission"
         },
-        page: g( () => import("./aSBvoMalDgfJ2kPmSP4i7lzvZaf-X9xX2UMZCvg0du8.GQAJACBZ.mjs")),
+        page: y( () => import("./aSBvoMalDgfJ2kPmSP4i7lzvZaf-X9xX2UMZCvg0du8.HAM3PATG.mjs")),
         path: "/about-us"
+    },
+    xIBnPR7GQ: {
+        elements: {
+            Kk8hqhEMT: "hero",
+            RNOWshLpF: "contact-form"
+        },
+        page: y( () => import("./s9Ywdo2hwpmJmCKiALHKrjautrUCZm2wg3rAvgprGx4.NA7KMWJQ.mjs")),
+        path: "/contact"
     },
     oM7rOtzBh: {
         elements: {
             QmC8tpQ9F: "pages",
             rvN7JREl6: "hero"
         },
-        page: g( () => import("./r7Yngm5vXKhHQL-DV-MiZPITSmqgrE7nS7zaBYOGkvg.TGOAFOUC.mjs")),
+        page: y( () => import("./r7Yngm5vXKhHQL-DV-MiZPITSmqgrE7nS7zaBYOGkvg.H7O3MAF2.mjs")),
         path: "/legal"
     },
     n0rSazviK: {
@@ -1442,7 +1514,7 @@ var ee = {
             dNjp9V51c: "hero",
             N4A6kij_4: "list"
         },
-        page: g( () => import("./2EybSYYBrAOxa6JgxBbBDQnKVqZ0WS1XqGbaPMDToxg.CJSRJIBC.mjs")),
+        page: y( () => import("./2EybSYYBrAOxa6JgxBbBDQnKVqZ0WS1XqGbaPMDToxg.WMZMK622.mjs")),
         path: "/services"
     },
     zcG_ZMAmU: {
@@ -1454,7 +1526,7 @@ var ee = {
             MJQRCrz2w: "info",
             QHJ9wuUDs: "image"
         },
-        page: g( () => import("./8z6lCOosjP4a6g70ySvmSeTKNUZa9o25BlbXQVcBfSs.SP2QMZMZ.mjs")),
+        page: y( () => import("./8z6lCOosjP4a6g70ySvmSeTKNUZa9o25BlbXQVcBfSs.O2CXTIJ5.mjs")),
         path: "/case-studies/:yZKde_430"
     },
     JEEkFh6Ff: {
@@ -1462,7 +1534,7 @@ var ee = {
         elements: {
             HiMcMX2Vj: "content"
         },
-        page: g( () => import("./HpByvp7NHqDQQMNkF2JQDor86iKxZPDkW2kmj_kCDdM.VQDLNJCS.mjs")),
+        page: y( () => import("./HpByvp7NHqDQQMNkF2JQDor86iKxZPDkW2kmj_kCDdM.74YV6XYR.mjs")),
         path: "/legal/:uTsuKCnFC"
     },
     fBUEUnN7p: {
@@ -1471,23 +1543,23 @@ var ee = {
             DVni6f0tL: "hero",
             nWweUawHk: "details"
         },
-        page: g( () => import("./BHoYIWA2EIxAeR0O5qKPksg2Pg6yna2DhEX_nH_wEE4.DBTKKR4R.mjs")),
+        page: y( () => import("./BHoYIWA2EIxAeR0O5qKPksg2Pg6yna2DhEX_nH_wEE4.YHEODKNB.mjs")),
         path: "/services/:pxSuQ4QZL"
     }
 }
-  , Le = [{
+  , Pe = [{
     code: "en",
     id: "default",
     name: "English",
     slug: ""
 }]
-  , De = {
-    JWH1ve5K2: async () => (await import("./6EwOGdRceh15bm13a-xeTHJZKStejxf8xzAU1ngBz6M.4UWOLW56.mjs"))?.utils,
-    LOH4qa1jU: async () => (await import("./AkdAbCD5b7OjT4Ib33LNFG8KtVojSCjco75WMf172Rw.BXDW6ZCY.mjs"))?.utils,
-    Y5sZttdqc: async () => (await import("./wclo5ZEpCvpwTQsJGrNCUX7oNGps_9IWDTbd7Xwr1Bk.TOS5SPD3.mjs"))?.utils
+  , Ue = {
+    JWH1ve5K2: async () => (await import("./6EwOGdRceh15bm13a-xeTHJZKStejxf8xzAU1ngBz6M.WILDQZYW.mjs"))?.utils,
+    LOH4qa1jU: async () => (await import("./o9kkyT4iY9Lm20x6Q0rzY0-cvU8jJLhkwPtJqu1pkDw.UFCPJCKQ.mjs"))?.utils,
+    Y5sZttdqc: async () => (await import("./wclo5ZEpCvpwTQsJGrNCUX7oNGps_9IWDTbd7Xwr1Bk.IKOBLGKQ.mjs"))?.utils
 }
   , Rt = "88a1a84bcd0db189d5aef35f765ee0433d41f6d23fcb376dc9f6893fab8c77d7";
-function Lr({routeId: r, children: o, style: n, ...t}) {
+function jr({routeId: r, children: o, style: n, ...t}) {
     let p = {}[r] ?? {};
     switch (r) {
     case "YRMRDNPuz":
@@ -1500,7 +1572,7 @@ function Lr({routeId: r, children: o, style: n, ...t}) {
     case "zcG_ZMAmU":
     case "JEEkFh6Ff":
     case "fBUEUnN7p":
-        return _(bt, {
+        return R(vt, {
             ...p,
             key: "Main",
             routeId: r,
@@ -1536,58 +1608,58 @@ function wa(r) {
         return
     }
 }
-async function Dr({routeId: r, pathVariables: o, localeId: n}) {
-    let t = ee[r].page.preload()
-      , s = _(ct, {
+async function Br({routeId: r, pathVariables: o, localeId: n}) {
+    let t = $[r].page.preload()
+      , d = R(it, {
         isWebsite: !0,
         routeId: r,
         pathVariables: o,
-        routes: ee,
-        collectionUtils: De,
+        routes: $,
+        collectionUtils: Ue,
         framerSiteId: Rt,
-        notFoundPage: g( () => import("./1S_qGeSGDbD_Lg_B9L6j7dNiRL_zmWhSHyHVQmcLLx4.X6G4ZMSC.mjs")),
+        notFoundPage: y( () => import("./1S_qGeSGDbD_Lg_B9L6j7dNiRL_zmWhSHyHVQmcLLx4.UOWCJU6Q.mjs")),
         isReducedMotion: void 0,
         localeId: n,
-        locales: Le,
+        locales: Pe,
         preserveQueryParams: void 0,
-        siteCanonicalURL: void 0,
+        siteCanonicalURL: "https://energetic-purpose-504160.framer.app",
         EditorBar: typeof m < "u" ? ( () => {
             if (!/bot|-google|google-|yandex|ia_archiver|crawl|spider/iu.test(W.userAgent))
-                return g(async () => {
-                    let d = {
+                return y(async () => {
+                    let l = {
                         __version: 1,
                         framer: {
-                            useCurrentRoute: qe,
+                            useCurrentRoute: Oe,
                             useLocaleInfo: N,
-                            useRouter: le
+                            useRouter: He
                         },
                         react: {
-                            createElement: _,
-                            memo: Ge,
-                            useCallback: Me,
-                            useEffect: We,
+                            createElement: R,
+                            memo: Ee,
+                            useCallback: Ve,
+                            useEffect: Ae,
                             useRef: k,
-                            useState: ze
+                            useState: Ge
                         },
                         "react-dom": {
-                            createPortal: He
+                            createPortal: We
                         }
                     };
-                    m.__framer_editorBarDependencies = d;
-                    let {createEditorBar: b} = await import("https://edit.framer.com/init.mjs");
+                    m.__framer_editorBarDependencies = l;
+                    let {createEditorBar: v} = await import("https://edit.framer.com/init.mjs");
                     return {
-                        default: b({
-                            dependencies: d
+                        default: v({
+                            dependencies: l
                         })
                     }
                 }
                 )
         }
         )() : void 0,
-        LayoutTemplate: Lr
+        LayoutTemplate: jr
     })
-      , p = _(tt, {
-        children: s,
+      , p = R($e, {
+        children: d,
         value: {
             editorBarDisableFrameAncestorsSecurity: !1,
             editorBarOnPageEditing: !1,
@@ -1598,11 +1670,11 @@ async function Dr({routeId: r, pathVariables: o, localeId: n}) {
             yieldOnTap: !1
         }
     })
-      , h = _(it, {
+      , u = R(ot, {
         children: p
     })
-      , a = _(Ye, {
-        children: h,
+      , a = R(Je, {
+        children: u,
         value: {
             global: {
                 enter: {
@@ -1631,98 +1703,125 @@ async function Dr({routeId: r, pathVariables: o, localeId: n}) {
     return await t,
     a
 }
-var Ve = typeof document < "u";
-if (Ve) {
-    m.__framer_importFromPackage = (o, n) => () => _(Qe, {
+var De = typeof document < "u";
+if (De) {
+    m.__framer_importFromPackage = (o, n) => () => R(Ze, {
         error: 'Package component not supported: "' + n + '" in "' + o + '"'
     }),
     m.process = {
+        ...m.process,
+        env: {
+            ...m.process ? m.process.env : void 0,
+            NODE_ENV: "production"
+        }
     },
     m.__framer_events = m.__framer_events || [],
-m.__framer_events.push = () => {};
-    $e();
+    Xe();
     let r = document.getElementById("main");
-    "framerHydrateV2"in r.dataset ? vt(!0, r) : vt(!1, r)
+    "framerHydrateV2"in r.dataset ? Ft(!0, r) : Ft(!1, r)
 }
-function Vr() {
+function Er() {
+    De && m.__framer_events.push(arguments)
 }
-async function vt(r, o) {
-    function n(t, s, p=!0) {
+async function Ft(r, o) {
+    function n(t, d, p=!0) {
         if (t.caught || m.__framer_hadFatalError)
             return;
-        let h = s?.componentStack;
+        let u = d?.componentStack;
         if (p) {
             if (console.warn(),
             Math.random() > .01)
                 return
         } else
             console.error();
-        Vr(p ? "published_site_load_recoverable_error" : "published_site_load_error", {
+        Er(p ? "published_site_load_recoverable_error" : "published_site_load_error", {
             message: String(t),
-            componentStack: h,
-            stack: h ? void 0 : t instanceof Error && typeof t.stack == "string" ? t.stack : null
+            componentStack: u,
+            stack: u ? void 0 : t instanceof Error && typeof t.stack == "string" ? t.stack : null
         })
     }
     try {
-        let t, s, p, h;
+        let t, d, p, u;
         if (r) {
-            let d = JSON.parse(o.dataset.framerHydrateV2);
-            t = d.routeId,
-            s = d.localeId,
-            p = d.pathVariables,
-            h = d.breakpoints,
-            t = ke(ee, t)
+            let l = JSON.parse(o.dataset.framerHydrateV2);
+            t = l.routeId,
+            d = l.localeId,
+            p = l.pathVariables,
+            u = l.breakpoints,
+            t = Ce($, t)
         } else {
-            ke(ee, void 0);
-            let d = Xe(ee, decodeURIComponent(location.pathname), !0, Le);
-            t = d.routeId,
-            s = d.localeId,
-            p = d.pathVariables
+            Ce($, void 0);
+            let l = Ye($, decodeURIComponent(location.pathname), !0, Pe);
+            t = l.routeId,
+            d = l.localeId,
+            p = l.pathVariables
         }
-        let a = Dr({
+        let a = Br({
             routeId: t,
-            localeId: s,
+            localeId: d,
             pathVariables: p
         });
         typeof m < "u" && (async () => {
-            let d = ee[t]
-              , b = "default"
-              , v = Le.find( ({id: u}) => s ? u === s : u === b).code
+            let l = $[t]
+              , v = "default"
+              , F = Pe.find( ({id: h}) => d ? h === d : h === v).code
               , I = null;
-            if (d?.collectionId && De) {
-                let u = await De[d.collectionId]?.()
+            if (l?.collectionId && Ue) {
+                let h = await Ue[l.collectionId]?.()
                   , [f] = Object.values(p);
-                u && typeof f == "string" && (I = await u.getRecordIdBySlug(f, v || void 0) ?? null)
+                h && typeof f == "string" && (I = await h.getRecordIdBySlug(f, F || void 0) ?? null)
             }
-            let i = Intl.DateTimeFormat().resolvedOptions()
-              , B = i.timeZone
-              , te = i.locale;
-            await new Promise(u => {
-                document.prerendering ? document.addEventListener("prerenderingchange", u, {
+            let s = Intl.DateTimeFormat().resolvedOptions()
+              , S = s.timeZone
+              , ee = s.locale;
+            await new Promise(h => {
+                document.prerendering ? document.addEventListener("prerenderingchange", h, {
                     once: !0
-                }) : u()
+                }) : h()
             }
             ),
-            await Je({
+            m.__framer_events.push(["published_site_pageview", {
+                framerSiteId: Rt ?? null,
+                routePath: l?.path || "/",
+                collectionItemId: I,
+                framerLocale: F || null,
+                webPageId: l?.abTestingVariantId ?? t,
+                abTestId: l?.abTestId,
+                referrer: document.referrer || null,
+                url: m.location.href,
+                hostname: m.location.hostname || null,
+                pathname: m.location.pathname || null,
+                hash: m.location.hash || null,
+                search: m.location.search || null,
+                timezone: S,
+                locale: ee
+            }, "eager"]),
+            await Me({
                 priority: "background",
                 ensureContinueBeforeUnload: !0,
                 continueAfter: "paint"
-            })}
+            }),
+            document.dispatchEvent(new CustomEvent("framer:pageview",{
+                detail: {
+                    framerLocale: F || null
+                }
+            }))
+        }
         )();
         let x = await a;
-        r ? (ft("framer-rewrite-breakpoints", () => {
-            mt(h),
-            m.__framer_onRewriteBreakpoints?.(h)
+        r ? (lt("framer-rewrite-breakpoints", () => {
+            dt(u),
+            m.__framer_onRewriteBreakpoints?.(u)
         }
         ),
-        Ce( () => {
-            Ze(),
-            Ke(),
+        Re( () => {
+            qe(),
+            Qe(),
             ut(o, x, {
                 onRecoverableError: n
             })
         }
-        )) : Ue(o, {
+        )) : Ne(o, {
             onRecoverableError: n
         }).render(x)
     } catch (t) {
@@ -1731,8 +1830,7 @@ async function vt(r, o) {
     }
 }
 (function() {
-    
 }
 )();
-export {wa as getLayoutTemplateBreakpoints, Dr as getPageRoot};
-//# sourceMappingURL=script_main.CGWDA4F2.mjs.map
+export {wa as getLayoutTemplateBreakpoints, Br as getPageRoot};
+//# sourceMappingURL=script_main.3YJ7G6WI.mjs.map
