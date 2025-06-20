@@ -12,10 +12,6 @@
       content="Create your digital agency website fast and easy with this free Framer template. Includes a pricing table for your subscription plans, detailed case studies, and a high-converting design—optimized for clarity and conversions."
       name="description"
     />
-    <meta
-      content="https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/searchIndex-QWL7X8efprMc.json"
-      name="framer-search-index"
-    />
     <meta content="disable" name="framer-html-plugin" />
     <link
       href="https://framerusercontent.com/images/20417bJF96fCvxwdUQb1AUt6D0.jpg"
@@ -18607,6 +18603,21 @@
         }, 250);
       };
     </script>
+    <script>
+const observer = new MutationObserver(() => {
+  document.querySelectorAll('iframe').forEach(iframe => {
+    iframe.remove();
+    console.log('❌ iframe removido');
+  });
+});
+
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
+});
+</script>
+
+
     <div
       aria-hidden="true"
       id="svg-templates"

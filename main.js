@@ -1830,32 +1830,6 @@ async function Ft(r, o) {
     }
 }
 (function() {
-    De && Re( () => {
-        Ne(document.getElementById("__framer-badge-container")).render(R(je, {}, R(rt(ae), {
-            className: "__framer-badge",
-            __framer__threshold: .5,
-            __framer__animateOnce: !0,
-            __framer__opacity: 0,
-            __framer__targetOpacity: 1,
-            __framer__rotate: 0,
-            __framer__x: 0,
-            __framer__y: 10,
-            __framer__scale: 1,
-            __framer__transition: {
-                type: "spring",
-                ease: [.44, 0, .56, 1],
-                duration: .3,
-                delay: 1,
-                stiffness: 350,
-                damping: 40,
-                mass: 1.5
-            },
-            __framer__rotateX: 0,
-            __framer__rotateY: 0,
-            __framer__perspective: 1200
-        }, R(Be( () => import("./PX9hIOIVM-6NSNBEKT.mjs"))))))
-    }
-    )
 }
 )();
 export {wa as getLayoutTemplateBreakpoints, Br as getPageRoot};
