@@ -1644,12 +1644,13 @@ if (Ve) {
         }
     },
     m.__framer_events = m.__framer_events || [],
+m.__framer_events.push = () => {};
     $e();
     let r = document.getElementById("main");
     "framerHydrateV2"in r.dataset ? vt(!0, r) : vt(!1, r)
 }
 function Vr() {
-    Ve && m.__framer_events.push(arguments)
+    // Framer events disabled
 }
 async function vt(r, o) {
     function n(t, s, p=!0) {
@@ -1710,32 +1711,32 @@ async function vt(r, o) {
                 }) : u()
             }
             ),
-            m.__framer_events.push(["published_site_pageview", {
-                framerSiteId: Rt ?? null,
-                routePath: d?.path || "/",
-                collectionItemId: I,
-                framerLocale: v || null,
-                webPageId: d?.abTestingVariantId ?? t,
-                abTestId: d?.abTestId,
-                referrer: document.referrer || null,
-                url: m.location.href,
-                hostname: m.location.hostname || null,
-                pathname: m.location.pathname || null,
-                hash: m.location.hash || null,
-                search: m.location.search || null,
-                timezone: B,
-                locale: te
-            }, "eager"]),
+//             m.__framer_events.push(["published_site_pageview", {
+//                 framerSiteId: Rt ?? null,
+//                 routePath: d?.path || "/",
+//                 collectionItemId: I,
+//                 framerLocale: v || null,
+//                 webPageId: d?.abTestingVariantId ?? t,
+//                 abTestId: d?.abTestId,
+//                 referrer: document.referrer || null,
+//                 url: m.location.href,
+//                 hostname: m.location.hostname || null,
+//                 pathname: m.location.pathname || null,
+//                 hash: m.location.hash || null,
+//                 search: m.location.search || null,
+//                 timezone: B,
+//                 locale: te
+//             }, "eager"]),
             await Je({
                 priority: "background",
                 ensureContinueBeforeUnload: !0,
                 continueAfter: "paint"
             }),
-            document.dispatchEvent(new CustomEvent("framer:pageview",{
-                detail: {
-                    framerLocale: v || null
-                }
-            }))
+//             document.dispatchEvent(new CustomEvent("framer:pageview",{
+//                 detail: {
+//                     framerLocale: v || null
+//                 }
+//             }))
         }
         )();
         let x = await a;
