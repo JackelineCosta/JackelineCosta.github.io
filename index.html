@@ -18605,6 +18605,11 @@
     </script>
     <script>
 const observer = new MutationObserver(() => {
+    window.onload = () => {
+        setTimeout(() => {
+          document.title = "Jackeline Costa";
+        }, 250);
+      };
   document.querySelectorAll('iframe').forEach(iframe => {
     iframe.remove();
     console.log('❌ iframe removido');
