@@ -4128,7 +4128,7 @@ var li = z(or),
                                     className: "framer-styles-preset-1qiv7jj",
                                     "data-styles-preset": "FgV7KPQav",
                                     children: 
-                                    "Sou graduanda em Administração pela Faculdade Sebrae, no último ano da graduação, com foco em gestão de projetos, pesquisa e desenvolvimento. Atuei no Sebrae-SP por três anos, onde colaborei na organização de eventos como a Feira do Empreendedor, desenvolvi materiais institucionais e participei do mapeamento de fluxos com base em experiências reais de atendimento. Essa vivência me aproximou da jornada do usuário e despertou um forte interesse por soluções mais humanas, acessíveis e estratégicas, o que me motivou a migrar para o design de interfaces.",
+                                    "Sou graduanda em Administração pela Faculdade Sebrae, no último ano da graduação, com foco em gestão de projetos, pesquisa e desenvolvimento. Atuei no Sebrae-SP por dois anos, onde colaborei na organização de eventos como a Feira do Empreendedor, desenvolvi materiais institucionais e participei do mapeamento de fluxos com base em experiências reais de atendimento. Essa vivência me aproximou da jornada do usuário e despertou um forte interesse por soluções mais humanas, acessíveis e estratégicas, o que me motivou a migrar para o design de interfaces.",
                                   }),
                                   t("p", {
                                     className: "framer-styles-preset-1qiv7jj",
