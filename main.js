@@ -1,6 +1,6 @@
 import {a as fe, b as pe, c as he} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-U654ZQRN.mjs";
 import {a as ye} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-4PLI5XDM.mjs";
-import {a as ue} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-Y4RV7FRP.mjs";
+import {a as ue} from "./chunk-Y4RV7FRP.mjs";
 import {a as mt, b as ft, c as pt} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-KAWT63UV.mjs";
 import "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-42U43NKG.mjs";
 import {A as Ie, B as Ze, C as Q, D as Xe, F as q, G as Ke, H as $e, I as w, J as et, L as A, M as ke, O as tt, S as re, T as rt, U as Y, V as g, W as ae, X as T, Y as at, Z as ot, b as P, ba as nt, c as V, ca as C, d as i, ea as it, ia as st, j as ze, ja as ct, k as We, ka as dt, l as _e, m as y, n as He, na as Z, o as Oe, qa as me, r as Me, ra as G, s as Je, t as N, u as Qe, ua as U, v as qe, va as z, wa as D, x as Ye, xa as oe, y as Ce, ya as lt} from "https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/chunk-3GPPV2JX.mjs";
@@ -1465,7 +1465,7 @@ var $ = {
             wpN7nZHkO: "why-choose-us",
             xJN2mZXcm: "benefits"
         },
-        page: y( () => import("https://framerusercontent.com/sites/5sB41yXA0S5ICx1Qx95K7l/weQGaoI0xYIWKpepnXTagwU4x37esp5UFjossGEMH1E.7BOLIIBT.mjs")),
+        page: y( () => import("./weQGaoI0xYIWKpepnXTagwU4x37esp5UFjossGEMH1E.7BOLIIBT.mjs")),
         path: "/"
     },
     XO8mqcZA9: {
