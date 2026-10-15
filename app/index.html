@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+    <meta name="theme-color" content="#101110">
+    <meta name="description" content="Portfólio de Jackeline Costa, Product Designer. Projetos e experiências digitais.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Jackeline Costa — Product Designer">
+    <meta property="og:description" content="Projetos e experiências digitais por Jackeline Costa.">
+    <meta property="og:image" content="https://jackelinecosta.github.io/assets/images/covers/raiz-cover.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://jackelinecosta.github.io/">
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <title>Jackeline Costa — Product Designer</title>
+    <script>
+      (() => {
+        let saved;
+        try { saved = localStorage.getItem('portfolio-theme'); } catch (_) {}
+        const systemLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+        const theme = saved === 'light' || saved === 'dark' ? saved : (systemLight ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#101110' : '#f3f1eb';
+      })();
+    </script>
+  </head>
+  <body>
+    <jc-app></jc-app>
+  </body>
+</html>

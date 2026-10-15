@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-jackeline-costa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:projects": "tsx scripts/build-project-pages.ts",
+    "build:showcase": "esbuild ././src/projects-showcase.tsx --bundle --minify --format=iife --target=es2020 --outfile=./assets/js/projects-showcase.js",
+    "build:legacy": "npm run build:projects && npm run build:showcase",
+    "build:angular": "ng build",
+    "build": "npm run build:angular && node scripts/publish-home.mjs",
+    "serve": "ng serve --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "check": "powershell -ExecutionPolicy Bypass -File scripts/check-project.ps1 && npm run typecheck && node --check script.js && node --check assets/js/projects-showcase.js"
+  },
+  "dependencies": {
+    "@angular/common": "^22.2.2",
+    "@angular/compiler": "^22.2.2",
+    "@angular/core": "^22.2.2",
+    "@angular/platform-browser": "^22.2.2",
+    "@angular/router": "^22.2.2",
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/space-grotesk": "^5.3.0",
+    "gsap": "^3.15.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "rxjs": "^7.8.2",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@angular/build": "^22.2.2",
+    "@angular/cli": "^22.2.2",
+    "@angular/compiler-cli": "^22.2.2",
+    "@types/node": "^26.1.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.28.1",
+    "sass": "^1.105.1",
+    "tsx": "^4.23.1",
+    "typescript": "~6.0.0"
+  }
+}
