@@ -44,9 +44,9 @@ const documentation = (project: Project, base: string) => {
       <div class="case-pdf-pages" aria-label="Páginas do material visual do projeto">
         ${project.pdfPages.map((image, index) => `<figure class="case-pdf-page"><img src="${base}${escapeHtml(image.src)}" alt="${escapeHtml(image.alt)}" loading="lazy"><figcaption>Página ${index + 1}</figcaption></figure>`).join("")}
       </div>`;
-    const pdfLink = project.pdf ? `<div class="case-document case-document-compact"><a class="button" href="${base}${escapeHtml(project.pdf)}" target="_blank">Abrir ou baixar PDF</a></div>` : "";
+    const external = project.linkExterno ? `<a class="text-link" href="${escapeHtml(project.linkExterno)}" target="_blank" rel="noopener noreferrer">${project.slug === "raiz" ? "Ver aplicativo no Google Play" : "Visitar projeto online"} <span aria-hidden="true">↗</span></a>` : "";
 
-    return `<section class="case-section case-section-pdf-only"><div class="container">${pdfPages}${pdfLink}</div></section>`;
+    return `<section class="case-section case-section-pdf-only"><div class="container">${pdfPages}${external}</div></section>`;
   }
 
   const gallery = project.imagens.length ? `

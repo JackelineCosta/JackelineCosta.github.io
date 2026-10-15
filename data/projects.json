@@ -71,7 +71,7 @@
       }
     ],
     "pdf": "assets/pdfs/equilibre-se.pdf",
-    "linkExterno": "https://www.behance.net/gallery/225778623/Equilibre-se-UIUX-Plataforma-de-Terapia-Online",
+    "linkExterno": null,
     "destaque": true,
     "classificacoes": [
       "projeto-autoral"
@@ -176,6 +176,7 @@
         "alt": "Capa do projeto Raiz com telas mobile e identidade UI/UX"
       }
     ],
+    "linkExterno": "https://play.google.com/store/apps/details?id=com.angolabs.raiz",
     "destaque": false
   },
   {

@@ -225,7 +225,6 @@ const openProjectPreview = (project) => {
   ].filter(Boolean).join("");
   const actions = [
     `<a class="button" href="${projectUrl(project)}">Ver estudo completo</a>`,
-    project.pdf ? `<a class="text-link" href="${basePath}${escapeHtml(project.pdf)}" target="_blank">Abrir PDF ↗</a>` : "",
     project.linkExterno ? `<a class="text-link" href="${escapeHtml(project.linkExterno)}" target="_blank" rel="noreferrer">Visitar projeto ↗</a>` : ""
   ].filter(Boolean).join("");
 

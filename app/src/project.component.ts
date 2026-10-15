@@ -1,9 +1,9 @@
-import { Component, DestroyRef, inject, signal } from '@angular/core';
+import { Component, DestroyRef, computed, inject, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { HeaderComponent } from './header.component';
-import { CaseContent, cases } from './case-content';
+import { CaseContent, cases, mobileDocumentSlides } from './case-content';
 
 @Component({
   selector: 'jc-project',
@@ -41,6 +41,37 @@ import { CaseContent, cases } from './case-content';
                   </figure>
                 }
               </div>
+              <div class="case-mobile-document">
+                <p class="case-mobile-document-hint">Deslize para explorar a apresentação</p>
+                <div class="case-mobile-slide-track" #slideTrack (scroll)="updateSlide(slideTrack)" tabindex="0" role="region" aria-roledescription="carrossel" [attr.aria-label]="'Apresentação de ' + content.project.titulo">
+                  @for (slide of mobileSlides(); track $index; let index = $index) {
+                    <figure class="case-mobile-slide">
+                      <div class="case-mobile-slide-media" [style.aspect-ratio]="slide.aspectRatio">
+                        <img [src]="'/' + slide.image.src" [style.top.%]="slide.topPercent" [alt]="slide.image.alt + (slide.partCount > 1 ? ', parte ' + slide.partNumber + ' de ' + slide.partCount : '')" [attr.loading]="index === 0 ? 'eager' : 'lazy'">
+                      </div>
+                      <figcaption>Página {{ slide.pageNumber }} de {{ content.documentPages.length }} @if (slide.partCount > 1) { · parte {{ slide.partNumber }} de {{ slide.partCount }} }</figcaption>
+                    </figure>
+                  }
+                </div>
+                <div class="case-mobile-slide-controls">
+                  <button type="button" (click)="moveSlide(slideTrack, -1)" [disabled]="activeSlide() === 0" aria-label="Slide anterior">←</button>
+                  <span aria-live="polite">{{ activeSlide() + 1 }} / {{ mobileSlides().length }}</span>
+                  <button type="button" (click)="moveSlide(slideTrack, 1)" [disabled]="activeSlide() === mobileSlides().length - 1" aria-label="Próximo slide">→</button>
+                </div>
+                <section class="case-mobile-summary" aria-labelledby="case-mobile-summary-title">
+                  <p class="case-mobile-summary-eyebrow">Em poucas palavras</p>
+                  <h2 id="case-mobile-summary-title">Sobre o projeto</h2>
+                  @if (content.project.descricao) { <p class="case-mobile-summary-lead">{{ content.project.descricao }}</p> }
+                  @if (content.project.contexto) { <div><h3>Contexto</h3><p>{{ content.project.contexto }}</p></div> }
+                  @if (content.project.problema) { <div><h3>Desafio</h3><p>{{ content.project.problema }}</p></div> }
+                  @if (content.project.objetivo) { <div><h3>Objetivo</h3><p>{{ content.project.objetivo }}</p></div> }
+                  @if (content.project.minhaParticipacao) { <div><h3>Minha atuação</h3><p>{{ content.project.minhaParticipacao }}</p></div> }
+                  @if (!content.project.contexto && content.project.papel) { <div><h3>Minha atuação</h3><p>{{ content.project.papel }}</p></div> }
+                </section>
+              </div>
+              @if (content.project.linkExterno) {
+                <p class="case-project-link"><a [href]="content.project.linkExterno" target="_blank" rel="noopener noreferrer">{{ content.project.slug === 'raiz' ? 'Ver aplicativo no Google Play' : 'Visitar projeto online' }} ↗</a></p>
+              }
             </section>
           } @else {
             <div class="case-body case-body-undocumented page-gutter">
@@ -100,6 +131,18 @@ export class ProjectComponent {
   readonly caseData = signal<CaseContent | undefined>(undefined);
   readonly nextCase = signal<CaseContent | undefined>(undefined);
   readonly projectNumber = signal('—');
+  readonly mobileSlides = computed(() => mobileDocumentSlides(this.caseData()?.documentPages ?? []));
+  readonly activeSlide = signal(0);
+
+  moveSlide(track: HTMLElement, direction: number): void {
+    const next = Math.max(0, Math.min(this.mobileSlides().length - 1, this.activeSlide() + direction));
+    track.scrollTo({ left: next * track.clientWidth, behavior: 'smooth' });
+    this.activeSlide.set(next);
+  }
+
+  updateSlide(track: HTMLElement): void {
+    this.activeSlide.set(Math.round(track.scrollLeft / track.clientWidth));
+  }
 
   constructor() {
     this.route.paramMap.pipe(takeUntilDestroyed(inject(DestroyRef))).subscribe((params) => {
@@ -107,6 +150,7 @@ export class ProjectComponent {
       const index = cases.findIndex((item) => item.project.slug === slug);
       const content = index < 0 ? undefined : cases[index];
       this.caseData.set(content);
+      this.activeSlide.set(0);
       this.nextCase.set(index < 0 ? undefined : cases[(index + 1) % cases.length]);
       this.projectNumber.set(index < 0 ? '—' : String(index + 1).padStart(2, '0'));
       this.title.setTitle(content ? `${content.project.titulo} — Jackeline Costa` : 'Projeto não encontrado — Jackeline Costa');

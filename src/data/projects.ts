@@ -88,7 +88,7 @@ export const projects: Project[] = [
     ],
     pdf: "assets/pdfs/equilibre-se.pdf",
     showCoverBeforePdf: true,
-    linkExterno: "https://www.behance.net/gallery/225778623/Equilibre-se-UIUX-Plataforma-de-Terapia-Online",
+    linkExterno: null,
     destaque: true,
     classificacoes: ["projeto-autoral"],
     estado: "concluido",
@@ -137,14 +137,18 @@ export const projects: Project[] = [
   {
     slug: "raiz",
     titulo: "Raiz",
+    descricao: "Aplicativo para ajudar pessoas com cabelos crespos e cacheados a conhecer, organizar e acompanhar seus cuidados capilares.",
     categoria: "produtos-digitais",
     categoriaLabel: "Produtos digitais",
+    contexto: "O Raiz nasceu da dificuldade de conciliar os cuidados com o cabelo natural e as demandas do dia a dia. A proposta transforma uma necessidade pessoal em uma experiência prática e acessível para outras pessoas.",
+    objetivo: "Ajudar cada pessoa a entender as necessidades do próprio cabelo e construir uma rotina de cuidado possível, valorizando diversidade, autoestima e identidade.",
     imagens: [{ src: "assets/images/covers/raiz-cover.jpg", alt: "Fotografia de cuidado capilar com a identidade visual do Raiz" }],
     pdfPages: Array.from({ length: 24 }, (_, index) => ({
       src: `assets/images/pdf-pages/raiz-${String(index + 1).padStart(2, "0")}.webp`,
       alt: `Página ${index + 1} da apresentação do projeto Raiz`
     })),
     pdf: "assets/pdfs/raiz.pdf",
+    linkExterno: "https://play.google.com/store/apps/details?id=com.angolabs.raiz",
     destaque: false
   },
   {
@@ -202,7 +206,10 @@ export const projects: Project[] = [
     resultadosComprovados: ["Material visual consolidado para apresentação do site", "Estrutura preparada para linhas de produtos e coleções"],
     aprendizados: ["Em e-commerce de moda, clareza comercial e expressão de marca precisam caminhar juntas."],
     imagens: [{ src: "assets/images/covers/afro-bela-cover.png", alt: "Capa da Afro Bela com a página inicial do site exibida em um notebook" }],
-    pdfPages: [{ src: "assets/images/pdf-pages/afro-bela-01.webp", alt: "Página do PDF do projeto Afro Bela" }],
+    pdfPages: Array.from({ length: 9 }, (_, index) => ({
+      src: `assets/images/pdf-pages/afro-bela-${String(index + 1).padStart(2, "0")}.webp`,
+      alt: `Página ${index + 1} da apresentação do projeto Afro Bela`
+    })),
     pdf: "assets/pdfs/afro-bela.pdf",
     showCoverBeforePdf: true,
     linkExterno: "https://afrobela.online/",
