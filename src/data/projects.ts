@@ -9,6 +9,7 @@
 export interface ProjectImage {
   src: string;
   alt: string;
+  mobileSrc?: string;
 }
 
 export interface ProjectTheme {
@@ -172,10 +173,11 @@ export const projects: Project[] = [
     resultadosComprovados: ["Material de produto consolidado em página visual", "Projeto em desenvolvimento web e expansão"],
     aprendizados: ["Para pequenos negócios, uma boa interface precisa respeitar tempo, repertório digital e rotina real de quem usa."],
     imagens: [{ src: "assets/images/covers/minigest-cover.png", alt: "Celular com a interface do MiniGest nas mãos de uma pessoa" }],
-    pdfPages: [
-      { src: "assets/images/pdf-pages/minigest-01.webp", alt: "Primeira parte do PDF do projeto MiniGest" },
-      { src: "assets/images/pdf-pages/minigest-02.webp", alt: "Segunda parte do PDF do projeto MiniGest" }
-    ],
+    pdfPages: Array.from({ length: 12 }, (_, index) => ({
+      src: `assets/images/pdf-pages/minigest-${String(index + 1).padStart(2, "0")}.webp`,
+      mobileSrc: `assets/images/pdf-pages/minigest-${String(index + 1).padStart(2, "0")}-mobile.webp`,
+      alt: `Página ${index + 1} da apresentação do projeto MiniGest`
+    })),
     pdf: "assets/pdfs/minigest.pdf",
     showCoverBeforePdf: true,
     linkExterno: null,

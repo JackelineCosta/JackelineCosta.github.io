@@ -28,25 +28,28 @@ import { CaseContent, cases, mobileDocumentSlides } from './case-content';
 
           @if (content.documentPages.length > 0) {
             <section class="case-document page-gutter" aria-label="Apresentação completa do projeto">
-              @if (content.project.showCoverBeforePdf) {
+              @if (content.project.showCoverBeforePdf && !mobileDocumentVisible()) {
                 <figure class="case-document-cover">
                   <img [src]="'/' + content.project.imagens[0].src" [alt]="content.project.imagens[0].alt" fetchpriority="high">
                 </figure>
               }
-              <div class="case-document-pages">
-                @for (page of content.documentPages; track page.src; let index = $index) {
-                  <figure class="case-document-page">
-                    <img [src]="'/' + page.src" [alt]="'Página ' + (index + 1) + ' de ' + content.documentPages.length + ' da apresentação original de ' + content.project.titulo" [attr.fetchpriority]="index === 0 ? 'high' : null" [attr.loading]="index === 0 ? 'eager' : 'lazy'">
-                  </figure>
-                }
-              </div>
+              @if (!mobileDocumentVisible()) {
+                <div class="case-document-pages">
+                  @for (page of content.documentPages; track page.src; let index = $index) {
+                    <figure class="case-document-page">
+                      <img [src]="'/' + page.src" [alt]="'Página ' + (index + 1) + ' de ' + content.documentPages.length + ' da apresentação original de ' + content.project.titulo" [attr.fetchpriority]="index === 0 ? 'high' : null" [attr.loading]="index === 0 ? 'eager' : 'lazy'">
+                    </figure>
+                  }
+                </div>
+              }
+              @if (mobileDocumentVisible()) {
               <div class="case-mobile-document">
                 <div class="case-mobile-slide-track" #slideTrack (scroll)="updateSlide(slideTrack)" tabindex="0" role="region" aria-roledescription="carrossel" [attr.aria-label]="'Apresentação de ' + content.project.titulo">
                   @for (slide of mobileSlides(); track $index; let index = $index) {
                     <figure class="case-mobile-slide">
                       <button #openSlide type="button" class="case-mobile-slide-open" (click)="openReader(index, openSlide)" [attr.aria-label]="'Abrir página ' + slide.pageNumber + ' em tela cheia horizontal'">
                         <span class="case-mobile-slide-media" [style.aspect-ratio]="slide.aspectRatio">
-                          <img [src]="'/' + slide.image.src" [style.top.%]="slide.topPercent" [alt]="slide.image.alt + (slide.partCount > 1 ? ', parte ' + slide.partNumber + ' de ' + slide.partCount : '')" [attr.loading]="index === 0 ? 'eager' : 'lazy'">
+                          <img [src]="'/' + (slide.image.mobileSrc ?? slide.image.src)" [style.top.%]="slide.topPercent" [alt]="slide.image.alt + (slide.partCount > 1 ? ', parte ' + slide.partNumber + ' de ' + slide.partCount : '')" [attr.loading]="index === 0 ? 'eager' : 'lazy'">
                         </span>
                         <span class="case-mobile-slide-expand" aria-hidden="true">Ampliar ↗</span>
                       </button>
@@ -69,6 +72,7 @@ import { CaseContent, cases, mobileDocumentSlides } from './case-content';
                   @if (!content.project.contexto && content.project.papel) { <div><h3>Minha atuação</h3><p>{{ content.project.papel }}</p></div> }
                 </section>
               </div>
+              }
               @if (content.project.linkExterno) {
                 <p class="case-project-link"><a [href]="content.project.linkExterno" target="_blank" rel="noopener noreferrer">{{ content.project.slug === 'raiz' ? 'Ver aplicativo no Google Play' : 'Visitar projeto online' }} ↗</a></p>
               }
@@ -155,6 +159,9 @@ export class ProjectComponent {
   readonly mobileSlides = computed(() => mobileDocumentSlides(this.caseData()?.documentPages ?? []));
   readonly activeSlide = signal(0);
   readonly readerOpen = signal(false);
+  private readonly mobileMedia = window.matchMedia('(max-width: 850px)');
+  readonly mobileViewport = signal(this.mobileMedia.matches);
+  readonly mobileDocumentVisible = computed(() => this.mobileViewport() || this.readerOpen());
   readonly readerIndex = signal(0);
   readonly readerSlide = computed(() => this.mobileSlides()[this.readerIndex()]);
   private readerTrigger: HTMLElement | null = null;
@@ -223,6 +230,9 @@ export class ProjectComponent {
   }
 
   constructor() {
+    const onViewportChange = (event: MediaQueryListEvent) => this.mobileViewport.set(event.matches);
+    this.mobileMedia.addEventListener('change', onViewportChange);
+    this.destroyRef.onDestroy(() => this.mobileMedia.removeEventListener('change', onViewportChange));
     this.destroyRef.onDestroy(() => this.closeReader(false));
     this.route.paramMap.pipe(takeUntilDestroyed(this.destroyRef)).subscribe((params) => {
       this.closeReader(false);

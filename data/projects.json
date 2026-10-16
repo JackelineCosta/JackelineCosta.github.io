@@ -240,7 +240,51 @@
     "pdfPages": [
       {
         "src": "assets/images/pdf-pages/minigest-01.webp",
-        "alt": "Página do PDF do projeto MiniGest"
+        "alt": "Página 1 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-02.webp",
+        "alt": "Página 2 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-03.webp",
+        "alt": "Página 3 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-04.webp",
+        "alt": "Página 4 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-05.webp",
+        "alt": "Página 5 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-06.webp",
+        "alt": "Página 6 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-07.webp",
+        "alt": "Página 7 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-08.webp",
+        "alt": "Página 8 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-09.webp",
+        "alt": "Página 9 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-10.webp",
+        "alt": "Página 10 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-11.webp",
+        "alt": "Página 11 da apresentação do projeto MiniGest"
+      },
+      {
+        "src": "assets/images/pdf-pages/minigest-12.webp",
+        "alt": "Página 12 da apresentação do projeto MiniGest"
       }
     ],
     "pdf": "assets/pdfs/minigest.pdf",
