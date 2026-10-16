@@ -36,7 +36,6 @@ const showcaseOrder: Array<Pick<ShowcaseProject, 'category'> & { slug: string }>
       <section class="projects page-gutter" id="projetos" aria-labelledby="projects-title">
         <div class="section-head">
           <h2 id="projects-title">Principais<br><em>trabalhos</em></h2>
-          <p class="section-intro">Produtos e experiências digitais, com espaço para observar cada projeto.</p>
         </div>
         <div class="project-grid">
           @for (item of showcase; track item.project.slug) {

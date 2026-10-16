@@ -20,7 +20,6 @@ type OpenMedia = { work: GalleryWork; group: GalleryGroup; media: GalleryMedia; 
           <header class="gallery-heading">
             <p class="gallery-eyebrow">Outros trabalhos / {{ current.works.length }} {{ current.works.length === 1 ? 'projeto' : 'projetos' }}</p>
             <h1>{{ current.title }}</h1>
-            @if (current.description) { <p>{{ current.description }}</p> }
           </header>
           <div class="gallery-tabs" role="tablist" [attr.aria-label]="'Trabalhos de ' + current.title" (keydown)="onTabKeydown($event, current.works.length)">
             @for (work of current.works; track work.title; let index = $index) {

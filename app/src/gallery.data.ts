@@ -20,7 +20,6 @@ export interface GalleryWork {
 export interface GalleryCategory {
   slug: string;
   title: string;
-  description?: string;
   works: GalleryWork[];
 }
 
@@ -70,7 +69,6 @@ export const galleryCategories: GalleryCategory[] = [
   {
     slug: 'sites-e-paginas',
     title: 'Sites e páginas',
-    description: 'Experiências digitais criadas para apresentar marcas, histórias e iniciativas com clareza.',
     works: [
       fromProject('lp-jussara-do-macuco')
     ]
@@ -78,7 +76,6 @@ export const galleryCategories: GalleryCategory[] = [
   {
     slug: 'portfolios-editoriais',
     title: 'Portfólios editoriais',
-    description: 'Narrativas visuais que organizam trajetórias, trabalhos e memórias em apresentações acessíveis.',
     works: [
       fromProject('portfolio-leninha', true),
       fromProject('portfolio-irene', true)
