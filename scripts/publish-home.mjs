@@ -36,5 +36,15 @@ for (const slug of slugs) {
   await mkdir(directory, { recursive: true });
   await writeFile(join(directory, 'index.html'), projectHtml);
 }
+const gallerySource = await readFile(join(process.cwd(), 'app', 'src', 'gallery.data.ts'), 'utf8');
+const gallerySlugs = [...gallerySource.matchAll(/\bslug:\s*'([a-z0-9-]+)'/g)].map((match) => match[1]);
+for (const slug of gallerySlugs) {
+  const galleryHtml = published
+    .replace(/<title>[^<]*<\/title>/, `<title>Galeria — Jackeline Costa</title>`)
+    .replace(/<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="https://jackelinecosta.github.io/galerias/${slug}/">`);
+  const directory = join(process.cwd(), 'galerias', slug);
+  await mkdir(directory, { recursive: true });
+  await writeFile(join(directory, 'index.html'), galleryHtml);
+}
 await writeFile(join(process.cwd(), '404.html'), published);
-console.log(`Páginas Angular publicadas: início, sobre e ${slugs.length} projetos.`);
+console.log(`Páginas Angular publicadas: início, sobre, ${slugs.length} projetos e ${gallerySlugs.length} galerias.`);

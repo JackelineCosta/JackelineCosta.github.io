@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark" data-beasties-container>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+    <meta name="theme-color" content="#101110">
+    <meta name="description" content="Portfólio de Jackeline Costa, Product Designer. Projetos e experiências digitais.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Jackeline Costa — Product Designer">
+    <meta property="og:description" content="Projetos e experiências digitais por Jackeline Costa.">
+    <meta property="og:image" content="https://jackelinecosta.github.io/assets/images/covers/raiz-cover.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://jackelinecosta.github.io/galerias/social-media/">
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+    <title>Galeria — Jackeline Costa</title>
+    <script>
+      (() => {
+        let saved;
+        try { saved = localStorage.getItem('portfolio-theme'); } catch (_) {}
+        const systemLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+        const theme = saved === 'light' || saved === 'dark' ? saved : (systemLight ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#101110' : '#f3f1eb';
+      })();
+    </script>
+  <style>:root{color-scheme:dark;--color-bg:#101110;--color-text:#f2f0e9;--color-muted:#aaa9a3;--color-line:#393b37;--color-panel:#1a1c19;--color-pill:#f2f0e9;--color-pill-text:#101110;--color-focus:#a8c5ca;--color-about-bg:#242725;--color-about-text:#f2f0e9;--color-about-muted:#c9ccc6;--color-about-button:#bdd8de;--color-about-button-text:#171916;--color-footer-bg:#343a36;--font-display:"Space Grotesk", "Arial Narrow", sans-serif;--font-body:"DM Sans", Arial, sans-serif;--page-gutter:clamp(1.25rem, 3.1vw, 4rem);--content-width:1200px;--section-space:clamp(5rem, 10vw, 11rem);background:var(--color-bg)}*,*:before,*:after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:5.5rem}body{margin:0;min-width:320px;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);-webkit-font-smoothing:antialiased}body{transition:background-color .24s ease,color .24s ease,border-color .24s ease}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}</style><link rel="stylesheet" href="/assets/angular/styles.css" media="print" data-beasties-media="all"><noscript><link rel="stylesheet" href="/assets/angular/styles.css"></noscript></head>
+  <body>
+    <jc-app></jc-app>
+  <script src="/assets/angular/main.js" type="module"></script><script>document.querySelectorAll('link[data-beasties-media]').forEach(function(l){l.media=l.getAttribute('data-beasties-media');l.removeAttribute('data-beasties-media')})</script></body>
+</html>

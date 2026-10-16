@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { HeaderComponent } from './header.component';
 import { Project, ProjectImage, projects } from '../../src/data/projects';
+import { galleryCategories } from './gallery.data';
 
 type ShowcaseProject = { project: Project; image: ProjectImage; category: string };
-type MoreProjectLink = { project: Project; label: string };
 
 const showcaseOrder: Array<Pick<ShowcaseProject, 'category'> & { slug: string }> = [
   { slug: 'raiz', category: 'Aplicativo de rotina capilar' },
@@ -13,12 +13,6 @@ const showcaseOrder: Array<Pick<ShowcaseProject, 'category'> & { slug: string }>
   { slug: 'macucultura', category: 'Site cultural' },
   { slug: 'melhor-rastreio', category: 'Redesign de experiência de rastreio' },
   { slug: 'afro-bela', category: 'Site / E-commerce' }
-];
-
-const moreOrder: Array<{ slug: string; label: string }> = [
-  { slug: 'lp-jussara-do-macuco', label: 'Jussara do Macuco' },
-  { slug: 'portfolio-leninha', label: 'Portfólio Leninha' },
-  { slug: 'portfolio-irene', label: 'Portfólio Irenilce' }
 ];
 
 @Component({
@@ -41,7 +35,7 @@ const moreOrder: Array<{ slug: string; label: string }> = [
 
       <section class="projects page-gutter" id="projetos" aria-labelledby="projects-title">
         <div class="section-head">
-          <h2 id="projects-title">Trabalhos<br><em>selecionados</em></h2>
+          <h2 id="projects-title">Principais<br><em>trabalhos</em></h2>
           <p class="section-intro">Produtos e experiências digitais, com espaço para observar cada projeto.</p>
         </div>
         <div class="project-grid">
@@ -64,9 +58,9 @@ const moreOrder: Array<{ slug: string; label: string }> = [
       <section class="more-projects" id="mais-projetos" aria-labelledby="more-title">
         <div class="more-inner page-gutter">
           <h2 id="more-title">Mais projetos</h2>
-          <nav class="more-tags" aria-label="Projetos complementares">
-            @for (item of moreProjects; track item.project.slug) {
-              <a [routerLink]="['/projetos', item.project.slug]" [attr.aria-label]="'Abrir projeto ' + item.project.titulo">{{ item.label }}</a>
+          <nav class="more-tags" aria-label="Categorias de trabalhos">
+            @for (item of galleryCategories; track item.slug) {
+              <a [routerLink]="['/galerias', item.slug]" [attr.aria-label]="'Explorar ' + item.title">{{ item.title }}</a>
             }
           </nav>
         </div>
@@ -107,9 +101,5 @@ export class HomeComponent {
     return { project, image, category: item.category };
   });
 
-  readonly moreProjects: MoreProjectLink[] = moreOrder.map((item) => {
-    const project = projects.find((candidate) => candidate.slug === item.slug);
-    if (!project) throw new Error(`Projeto não encontrado: ${item.slug}`);
-    return { project, label: item.label };
-  });
+  readonly galleryCategories = galleryCategories;
 }
