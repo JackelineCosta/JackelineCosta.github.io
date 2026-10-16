@@ -241,7 +241,10 @@ export const projects: Project[] = [
     resultadosComprovados: ["Problema raiz identificado como ausência de abordagem centrada no usuário", "Proposta visual consolidada para comparação e evolução"],
     aprendizados: ["Interfaces logísticas precisam traduzir operação em clareza, confiança e orientação prática para pessoas comuns."],
     imagens: [{ src: "assets/images/covers/melhor-rastreio-cover.png", alt: "Capa do redesign Melhor Rastreio com o nome e símbolo do projeto" }],
-    pdfPages: [{ src: "assets/images/pdf-pages/melhor-rastreio-01.webp", alt: "Página do PDF do projeto Melhor Rastreio" }],
+    pdfPages: Array.from({ length: 13 }, (_, index) => ({
+      src: `assets/images/pdf-pages/melhor-rastreio-${String(index + 1).padStart(2, "0")}.webp`,
+      alt: `Página ${index + 1} da apresentação do projeto Melhor Rastreio`
+    })),
     pdf: "assets/pdfs/melhor-rastreio.pdf",
     showCoverBeforePdf: true,
     linkExterno: null,

@@ -14,7 +14,6 @@ export interface MobileDocumentSlide {
 const longPageSizes: Record<string, [number, number]> = {
   'equilibre-se-01.webp': [1366, 11801],
   'equilibre-se-02.webp': [1366, 3396],
-  'melhor-rastreio-01.webp': [1062, 13995],
   'minigest-01.webp': [851, 10099],
   'minigest-02.webp': [851, 2315]
 };
